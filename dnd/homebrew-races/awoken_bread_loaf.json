@@ -1,0 +1,280 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "DAND:Loaf",
+        "full": "Awoken Bread Loaf",
+        "abbreviation": "DAND",
+        "authors": ["D&D Wiki Homebrew"],
+        "version": "2025.10.01",
+        "url": "https://www.dandwiki.com/wiki/Awoken_Bread_Loaf_(5e_Race)"
+      }
+    ],
+    "dateAdded": 1545342498,
+    "dateLastModified": 1759356960,
+    "_dateLastModifiedHash": "b7a1c3d9f2",
+    "edition": "classic"
+  },
+  "race": [
+    {
+      "name": "Awoken Bread Loaf",
+      "source": "DAND:Loaf",
+      "ability": [
+        {
+          "con": 2,
+          "int": -2
+        }
+      ],
+      "speed": {
+        "walk": 10
+      },
+      "size": ["T"],
+      "traitTags": [
+        "Tiny Race",
+        "Unarmored Defense",
+        "Darkvision",
+        "Damage Resistance",
+        "Spellcasting"
+      ],
+      "entries": [
+        "Awoken Loafs are animated bread loaves brought to life by wandering bakers’ magic.",
+        {
+          "name": "Age",
+          "entries": [
+            "Awoken Loafs mature in just 2 weeks and live up to 50 years."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Alignment",
+          "entries": [
+            "Most Loafs lean toward chaotic alignments, though some find order in their lives."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Size",
+          "entries": ["All Loafs are Tiny."],
+          "type": "entries"
+        },
+        {
+          "name": "Stale Crust",
+          "entries": [
+            "If unarmored, your AC equals 14 + your Constitution modifier."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common and one other language based on your subrace."
+          ],
+          "type": "entries"
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Rye (Sylvan Origin)",
+          "ability": [
+            {
+              "wis": 1,
+              "con": 1
+            }
+          ],
+          "entries": [
+            {
+              "name": "Open Your Third Rye",
+              "entries": [
+                "You know the {@spell mage hand} cantrip. Constitution is your spellcasting ability."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Stepchild of Lembas",
+              "entries": [
+                "You gain the Wild Shape feature as if you were a 2nd-level Circle of the Moon druid, but you only have one use of Wild Shape."
+              ],
+              "type": "entries"
+            }
+          ],
+          "languageProficiencies": [
+            {
+              "common": true,
+              "sylvan": true
+            }
+          ],
+          "additionalSpells": [
+            {
+              "innate": {
+                "0": ["mage hand"]
+              },
+              "ability": "con"
+            }
+          ]
+        },
+        {
+          "name": "Banana (Elemental Origin)",
+          "ability": [
+            {
+              "cha": 1,
+              "con": 1
+            }
+          ],
+          "entries": [
+            {
+              "name": "Ripe for the Pickings",
+              "entries": [
+                "You know the {@spell prestidigitation} cantrip. Constitution is your spellcasting ability."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Elelemenental",
+              "entries": [
+                "Choose one spell based on your elemental plane: {@spell zephyr strike}, {@spell earth tremor}, {@spell armor of agathys}, or {@spell burning hands}. You can cast it once per short or long rest. Constitution is your spellcasting ability."
+              ],
+              "type": "entries"
+            }
+          ],
+          "languageProficiencies": [
+            {
+              "common": true,
+              "primordial": true
+            }
+          ],
+          "additionalSpells": [
+            {
+              "innate": {
+                "0": ["prestidigitation"]
+              },
+              "ability": "con"
+            }
+          ]
+        },
+        {
+          "name": "White (Draconian Origin)",
+          "ability": [
+            {
+              "dex": 1,
+              "con": 1
+            }
+          ],
+          "entries": [
+            {
+              "name": "Carbs Aren’t Bad",
+              "entries": [
+                "You know the {@spell spare the dying} cantrip. Constitution is your spellcasting ability."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Drake ’n’ Bake",
+              "entries": [
+                "You gain a breath weapon identical to the Dragonborn’s breath weapon (PHB p.34)."
+              ],
+              "type": "entries"
+            }
+          ],
+          "languageProficiencies": [
+            {
+              "common": true,
+              "draconic": true
+            }
+          ],
+          "additionalSpells": [
+            {
+              "innate": {
+                "0": ["spare the dying"]
+              },
+              "ability": "con"
+            }
+          ]
+        },
+        {
+          "name": "Whole Wheat (Celestial Origin)",
+          "ability": [
+            {
+              "str": 1,
+              "con": 1
+            }
+          ],
+          "entries": [
+            {
+              "name": "All Brain Loaf",
+              "entries": [
+                "You know the {@spell mind sliver} cantrip. Constitution is your spellcasting ability."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Wholy Wheat",
+              "entries": [
+                "You gain resistance to radiant and necrotic damage."
+              ],
+              "type": "entries"
+            }
+          ],
+          "languageProficiencies": [
+            {
+              "common": true,
+              "celestial": true
+            }
+          ],
+          "additionalSpells": [
+            {
+              "innate": {
+                "0": ["mind sliver"]
+              },
+              "ability": "con"
+            }
+          ]
+        },
+        {
+          "name": "Raisin (Fiendish Origin)",
+          "ability": [
+            {
+              "con": 2
+            }
+          ],
+          "entries": [
+            {
+              "name": "Unholy Darkvision",
+              "entries": [
+                "You have darkvision out to 120 feet. Unlike normal darkvision, you see in full color."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Uncrustable",
+              "entries": [
+                "You may use your Constitution modifier in place of Strength or Dexterity for weapon attack and damage rolls."
+              ],
+              "type": "entries"
+            }
+          ],
+          "languageProficiencies": [
+            {
+              "common": true,
+              "choose": {
+                "from": ["abyssal", "infernal"],
+                "count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Awoken Bread Loafs are whimsical, animated loaves of bread that spring to life from ovens touched by stray magic. They often wander into adventuring parties with no clear reason, bringing both comedy and unexpected resilience.",
+          {
+            "name": "Naming Conventions",
+            "entries": [
+              "Loafs are named with a first name, followed by their type of loaf, a nickname as a middle name, and finally the surname of their baker."
+            ],
+            "type": "entries"
+          }
+        ]
+      }
+    }
+  ]
+}
