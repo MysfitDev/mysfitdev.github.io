@@ -1,0 +1,175 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "DAND:Lopunny",
+                "full": "Lopunny",
+                "abbreviation": "DAND",
+                "authors": [
+                    "D&D Wiki Homebrew"
+                ],
+                "version": "2025.10.01",
+                "url": "https://www.dandwiki.com/wiki/Lopunny_(5e_Race)"
+            }
+        ],
+        "dateAdded": 1545342498,
+        "dateLastModified": 1759356960,
+        "_dateLastModifiedHash": "d1f9a7c2b8",
+        "edition": "classic"
+    },
+    "race": [
+        {
+            "name": "Lopunny",
+            "source": "DAND:Lopunny",
+            "ability": [
+                {
+                    "dex": 2,
+                    "cha": 1
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "size": [
+                "S"
+            ],
+            "traitTags": [
+                "Darkvision",
+                "Skill Proficiency",
+                "Unarmed Strike",
+                "Speed Bonus"
+            ],
+            "entries": [
+                "Graceful, beautiful, and rather short, these naturally timid bipedal lagomorphs resemble rabbits with long ears and fluffy fur.",
+                {
+                    "name": "Age",
+                    "entries": [
+                        "Bunearies reach maturity and develop into Lopunnies at 2 years and can live for approximately 12 years."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Alignment",
+                    "entries": [
+                        "Lopunnies usually lean toward neutral or lawful alignments, though mostly neutral."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Size",
+                    "entries": [
+                        "The average height for a Lopunny is barely 4 feet tall and usually weighs a little over 70 lbs. Your size is Small."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Timid Nature",
+                    "entries": [
+                        "You have disadvantage on saving throws against being frightened."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Burst of Speed",
+                    "entries": [
+                        "When you take the Dash action, you can move an additional 10 feet."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Leg Up",
+                    "entries": [
+                        "You have proficiency with using your legs to perform unarmed strikes. If you hit with them, you deal 1d4 bludgeoning damage + your Strength or Dexterity modifier (your choice)."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Cute Charm",
+                    "entries": [
+                        "You have proficiency in the {@skill Persuasion} skill."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Limber",
+                    "entries": [
+                        "You have advantage on saving throws against being paralyzed."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Heightened Hearing",
+                    "entries": [
+                        "Whenever you make a Wisdom ({@skill Perception}) check that involves hearing, you are considered proficient in the {@skill Perception} skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and your choice of Elvish or Sylvan."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "persuasion": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "choose": {
+                        "from": [
+                            "elvish",
+                            "sylvan"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Graceful and cautious, Lopunnies are timid lagomorphs who prefer to flee danger but can deliver powerful kicks when forced to fight.",
+                    {
+                        "name": "History",
+                        "entries": [
+                            "Lopunnies, along with their Buneary young, originated from the forests of the Sinnoh region, though they can be found almost anywhere. They are favorites among coordinators and contest participants due to their charm."
+                        ],
+                        "type": "entries"
+                    },
+                    {
+                        "name": "Society",
+                        "entries": [
+                            "Lopunnies usually live in colonies, caring for their young. They shed their fur twice a year, which is often collected and used in clothing."
+                        ],
+                        "type": "entries"
+                    },
+                    {
+                        "name": "Names",
+                        "entries": [
+                            "Despite appearing feminine, Lopunnies can be either male or female. Their names are usually Common or Elvish."
+                        ],
+                        "type": "entries"
+                    },
+                    {
+                        "name": "Random Height and Weight",
+                        "entries": [
+                            "Base Height: 3'6\" + 2d4 in.",
+                            "Base Weight: 60 lb. × (1d4)"
+                        ],
+                        "type": "entries"
+                    }
+                ]
+            }
+        }
+    ]
+}
