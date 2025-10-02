@@ -1,0 +1,188 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "DAND:Colossus",
+                "full": "Colossus",
+                "abbreviation": "DAND",
+                "authors": [
+                    "D&D Wiki Homebrew"
+                ],
+                "version": "2025.10.01",
+                "url": "https://www.dandwiki.com/wiki/Colossus_(5e_Race)"
+            }
+        ],
+        "dateAdded": 1545342498,
+        "dateLastModified": 1759356960,
+        "_dateLastModifiedHash": "c9a2f7d1e3",
+        "edition": "classic"
+    },
+    "race": [
+        {
+            "name": "Colossus",
+            "source": "DAND:Colossus",
+            "ability": [
+                {
+                    "con": 2
+                }
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": -1
+            },
+            "size": [
+                "L"
+            ],
+            "traitTags": [
+                "Construct",
+                "Unarmored Defense",
+                "Siege Damage"
+            ],
+            "entries": [
+                "Living castles created to defend and destroy, who unexpectedly have sentience and a soul.",
+                {
+                    "name": "Age",
+                    "entries": [
+                        "Colossi are created with adult-like intelligence and do not age in the conventional sense. After a few centuries their bodies crumble and can no longer hold together."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Alignment",
+                    "entries": [
+                        "Though colossi have free will, they were created as dutiful soldiers. They lean strongly toward lawful alignments, with a smaller leaning toward good."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Size",
+                    "entries": [
+                        "Colossi are massive, often well over 8 feet tall. Your size is Large. If your campaign allows Huge player characters, you may choose to be Huge instead. You weigh thousands of pounds."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Type",
+                    "entries": [
+                        "Your creature types are humanoid and construct. Effects that target either type affect you."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Speed",
+                    "entries": [
+                        "Your base walking speed is 30 feet. You cannot fly by any means, but can be carried by flying vehicles. You cannot swim, but instead walk along the bottom of water at half speed."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Stone Skin",
+                    "entries": [
+                        "You can add your Constitution modifier to your AC instead of Dexterity. You cannot do so with an effect that already adds Constitution to AC, such as a barbarian’s Unarmored Defense."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Partial Construct Nature",
+                    "entries": [
+                        "You cannot eat, drink, or breathe, and cannot benefit from potions. You must still sleep, but can complete a long rest in half the usual time."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Siege Sentinel",
+                    "entries": [
+                        "Objects of Large size or greater (including vehicles without an Intelligence score) are vulnerable to damage you deal."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Artillery",
+                    "ability": [
+                        {
+                            "dex": 1
+                        }
+                    ],
+                    "entries": [
+                        {
+                            "name": "Arm Cannon",
+                            "entries": [
+                                "One of your arms is a cannon (if firearms exist) or a ballista (if not). You are proficient with it. Range 150/600 ft. Attack and damage use Strength or Dexterity (your choice). Damage: 1d8 bludgeoning (cannon) or piercing (ballista), scaling to 1d10 at 5th level and 1d12 at 11th. If you Ready an attack against a flying or Gargantuan target, the attack roll has advantage."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Vantage Angle",
+                            "entries": [
+                                "Your speed isn’t reduced by climbing, and you are acclimated to high altitudes."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Bastion",
+                    "ability": [
+                        {
+                            "wis": 1
+                        }
+                    ],
+                    "entries": [
+                        {
+                            "name": "Magic Deflection",
+                            "entries": [
+                                "You always have at least half cover against ranged spell attack rolls."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Ultimate Defense",
+                            "entries": [
+                                "When you take the Dodge action on a turn in which you neither move nor take any other actions (including bonus actions), your half cover extends to all attacks and effects until the start of your next turn."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ram",
+                    "ability": [
+                        {
+                            "str": 1
+                        }
+                    ],
+                    "entries": [
+                        {
+                            "name": "Ramming Speed",
+                            "entries": [
+                                "Once per turn, if you move at least 30 feet in a straight line, you can immediately move an additional 15 feet in the same direction without expending movement."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Unflinching",
+                            "entries": [
+                                "If a Medium or smaller creature would knock you prone or shove you 5 feet or less, you can use your reaction to prevent it."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Colossi are living castles, massive constructs of stone or brick given life to defend or destroy entire cities. Though created as weapons of war, they have gained free will and are now recognized as living beings. Many still struggle with their origins as soldiers, but they form strong bonds with others of their kind and with those who respect their plight."
+                ]
+            }
+        }
+    ]
+}
