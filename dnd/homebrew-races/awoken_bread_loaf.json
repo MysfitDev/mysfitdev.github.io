@@ -2,9 +2,9 @@
   "_meta": {
     "sources": [
       {
-        "json": "DAND:Loaf",
+        "json": "MYSF:Loaf",
         "full": "Awoken Bread Loaf",
-        "abbreviation": "DAND",
+        "abbreviation": "MYSF",
         "authors": ["D&D Wiki Homebrew"],
         "version": "2025.10.01",
         "url": "https://www.dandwiki.com/wiki/Awoken_Bread_Loaf_(5e_Race)"
@@ -18,7 +18,7 @@
   "race": [
     {
       "name": "Awoken Bread Loaf",
-      "source": "DAND:Loaf",
+      "source": "MYSF:Loaf",
       "ability": [
         {
           "con": 2,

@@ -2,9 +2,9 @@
     "_meta": {
         "sources": [
             {
-                "json": "DAND:Lopunny",
+                "json": "MYSF:Lopunny",
                 "full": "Lopunny",
-                "abbreviation": "DAND",
+                "abbreviation": "MYSF",
                 "authors": [
                     "D&D Wiki Homebrew"
                 ],
@@ -20,7 +20,7 @@
     "race": [
         {
             "name": "Lopunny",
-            "source": "DAND:Lopunny",
+            "source": "MYSF:Lopunny",
             "ability": [
                 {
                     "dex": 2,

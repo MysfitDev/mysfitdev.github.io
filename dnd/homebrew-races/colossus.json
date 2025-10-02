@@ -2,9 +2,9 @@
     "_meta": {
         "sources": [
             {
-                "json": "DAND:Colossus",
+                "json": "MYSF:Colossus",
                 "full": "Colossus",
-                "abbreviation": "DAND",
+                "abbreviation": "MYSF",
                 "authors": [
                     "D&D Wiki Homebrew"
                 ],
@@ -20,7 +20,7 @@
     "race": [
         {
             "name": "Colossus",
-            "source": "DAND:Colossus",
+            "source": "MYSF:Colossus",
             "ability": [
                 {
                     "con": 2

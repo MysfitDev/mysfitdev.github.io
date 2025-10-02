@@ -1,25 +1,26 @@
 {
     "_meta": {
 		"sources": [
-			{
-				"json": "MysfitsPlayground",
-				"abbreviation": "MysfPg",
-				"url": "https://www.dandwiki.com/wiki/Kumiho_(5e_Race)",
-				"full": "Mysfit's Pet Playground",
-				"authors": [
-					"Mysfit"
-				],
-				"version": "1.0.0"
-			}
+            {
+                "json": "MYSF:Kumiho",
+                "full": "Kumiho",
+				"abbreviation": "MYSF",
+                "authors": [
+                    "Mysfit"
+                ],
+                "version": "2025.10.01",
+                "url": "https://www.dandwiki.com/wiki/Kumiho_(5e_Race)"
+            }
 		],
 		"dateAdded": 1654352423,
 		"dateLastModified": 1661723687,
-		"_dateLastModifiedHash": "fb9540bc4a"
+		"_dateLastModifiedHash": "fb9540bc4a",
+		"edition": "classic"
 	},
 	"race": [
 		{
 			"name": "Kumiho",
-			"source": "MysfPg",
+			"source": "MYSF",
 			"ability": [
 				{
 					"cha": 2,
@@ -198,9 +199,9 @@
 	"subrace": [
 		{
 			"name": "Fey",
-			"source": "MysfPg",
+			"source": "MYSF",
 			"raceName": "Kumiho",
-			"raceSource": "MysfPg",
+			"raceSource": "MYSF",
 			"lineage": null,
 			"ability": [
 				{
@@ -232,9 +233,9 @@
 		},
         {
 			"name": "Descendent",
-			"source": "MysfPg",
+			"source": "MYSF",
 			"raceName": "Kumiho",
-			"raceSource": "MysfPg",
+			"raceSource": "MYSF",
 			"lineage": null,
 			"ability": [
 				{
@@ -266,9 +267,9 @@
 		},
         {
 			"name": "Half-breed",
-			"source": "MysfPg",
+			"source": "MYSF",
 			"raceName": "Kumiho",
-			"raceSource": "MysfPg",
+			"raceSource": "MYSF",
 			"lineage": null,
 			"ability": [
 				{
@@ -300,9 +301,9 @@
 		},
         {
 			"name": "Draconic",
-			"source": "MysfPg",
+			"source": "MYSF",
 			"raceName": "Kumiho",
-			"raceSource": "MysfPg",
+			"raceSource": "MYSF",
 			"lineage": null,
 			"ability": [
 				{
