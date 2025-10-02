@@ -1,0 +1,424 @@
+{
+    "_meta": {
+		"sources": [
+			{
+				"json": "MysfitsPlayground",
+				"abbreviation": "MysfPg",
+				"url": "https://www.dandwiki.com/wiki/Kumiho_(5e_Race)",
+				"full": "Mysfit's Pet Playground",
+				"authors": [
+					"Mysfit"
+				],
+				"version": "1.0.0"
+			}
+		],
+		"dateAdded": 1654352423,
+		"dateLastModified": 1661723687,
+		"_dateLastModifiedHash": "fb9540bc4a"
+	},
+	"race": [
+		{
+			"name": "Kumiho",
+			"source": "MysfPg",
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"cha",
+							"wis"
+						]
+					}
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"traitTags": [],
+			"entries": [
+				"You are a 9 tailed foxes that like to take the form of humanoids, you gain the following traits:",
+				{
+					"name": "Ability Score Increase",
+					"entries": [
+						"Your Charisma score increases by 2."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Age",
+					"entries": [
+						"Kumiho reach adulthood around 150 years and can live up to a millenia."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Most Kumiho tend to be chaotic, but on occasion they can be lawful to those they are fond of. Kumiho have been known to be both good or evil."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"4 and half to 5 and a half feet tall in human or hybrid form and the size of a large dog in fox form. Your size is Medium in human and hybrid form and Small in fox form."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet. your movement is increased to 40 feet in fox form."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Incarnation",
+					"entries": [
+						"You are able to change form to that of a human with your ears and tail(s) still visible or to a human-fox hybrid form. While in normal fox form, people cannot see you as anything more than a normal fox, unless they succeed a Perception check with a DC of 10 + your level. Switching forms requires an action. When in fox form, the only spells you can cast are cantrips."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Tooth and Claw",
+					"entries": [
+						"Kumiho have natural weapons, their claws do 1d4 + your Strength or your Dexterity modifier. When in fox form, you also have a bite attack that does 1d6 + your Strength or your Dexterity modifier."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Kumiho Tails",
+					"entries": [
+						"You gain more tails as you gain more power starting with a second tail at level 4 you gain 1 tail every 2 levels up to 9 tails at level 18th."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Acute Senses",
+					"entries": [
+						"Kumiho have extraordinary senses. You have advantage on Perception checks."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Sneaky",
+					"entries": [
+						"You are proficient with the Stealth skill, and have advantage on Stealth checks but only while in fox form."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Sylvan."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Subrace",
+					"entries": [
+						"Fey, Descendent, Half-breed, Draconic."
+					],
+					"type": "entries"
+				}				
+			],
+			"fluff": {
+				"entries": [
+					{
+						"name": "Physical Description",
+						"entries": [
+							"At first glance, a kumiho is identical to a fox in every way, with the exception of long slender legs and angled bodies that rival the size of a large dog and most have 9 tails by the time they reach full adulthood. Their fur can come in different colors, but red with white tipped ears and tail is the most common coloration to be found aside from black tipped tail and ears or pure white fur. Their eyes illuminate with vibrant colors, making their iris have a faint glow in darkness.",
+							"Many kumiho like to travel in a humanoid form that displays their claws, ears, and tail(s). When a kumiho takes the form of a humanoid, they take the appearance of how their subconscious believes they would look as a human, but they always take the same appearance. They can also take a hybrid form, blending the appearance of their human and fox forms into an anthropomorphic fox.",
+							"Kumiho look very young for their actual age. One that is 100 years of age might look like a teenager. Around 150 years, their appearance halts around a human’s mid 20's until they reach 800 years. In the course of those final two centuries, they begin to age into late adulthood and finally their senior years prior to dying of old age."
+						]
+					},
+					{
+						"name": "History",
+						"entries": [
+							"Kumiho have roots among the fey as a race of mystical foxes incarnated from the souls of children who die at a young age. They often remain in the feywilds of their birth but the rare kumiho will venture out to see the worlds, hiding their true nature from curious eyes as they use fey magic to shift into a human form."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Society",
+						"entries": [
+							"Kumiho are widely believed to be a myth or thought to be the ancestors of Kitsune. Many scholars believe that Kumiho blood has powerful magic properties worth exploiting. When discovered, Kumiho will often claim they are a typical kitsune with a genetic mutation to have multiple tails. As Kumiho are often attractive and easy on the eyes, they are typically well liked in social interactions, except their hybrid form is usually unsettling to others."
+						],
+						"type": "entries"
+					},
+					{
+						"name": "Kumiho Names",
+						"entries": [
+							{
+								"entries": [
+									{
+										"name": "Male",
+										"entries": [
+											"Mako, Kobe, Kurt, Kurama"
+										],
+										"type": "entries"
+									},
+									{
+										"name": "Female",
+										"entries": [
+											"Holo, Myra, Lira, Asuna"
+										],
+										"type": "entries"
+									}
+								],
+								"type": "entries"
+							}
+						],
+						"type": "entries"
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"sylvan": true
+				}
+			]
+		}
+	],
+	"subrace": [
+		{
+			"name": "Fey",
+			"source": "MysfPg",
+			"raceName": "Kumiho",
+			"raceSource": "MysfPg",
+			"lineage": null,
+			"ability": [
+				{
+                    
+					"cha": 2,
+					"wis": 1
+				}
+			],
+			"entries": [
+                "Your connection to the earliest of kumiho is strong, and your fey-like presence reflects this.",
+				{
+					"name": "Fey Magic",
+					"entries": [
+						"You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the charm person spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the phantasmal force spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Sylvan Aura",
+					"entries": [
+						"You give off an aura of fey magic constantly. Creatures that can see or detect magic see a miasma of magic surrounding you in a 5 foot radius. This aura alerts you to unseen threats within 5 feet. This acts as blindsense up to 5 feet, only telling you a direction, not position or identity of the creature or object."
+					],
+					"type": "entries"
+				}
+			],
+			"overwrite": {
+				"ability": true
+			}
+		},
+        {
+			"name": "Descendent",
+			"source": "MysfPg",
+			"raceName": "Kumiho",
+			"raceSource": "MysfPg",
+			"lineage": null,
+			"ability": [
+				{
+                    
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"entries": [
+                "Your parents have strayed from the feywild forests and have adapted to surviving with their fox form.",
+				{
+					"name": "Wild Survivor",
+					"entries": [
+						"You were raised in the wild and know how to survive in the woods. You have advantage on Nature and Survival checks."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Natural Hunter",
+					"entries": [
+						"Your ability to hunt has taught you how to stalk and pounce. You have advantage with Stealth checks in any form. Also, you may use your Dexterity score when determining your jumping distance and add your Dexterity modifier to any Athletics checks associated with jumping."
+					],
+					"type": "entries"
+				}
+			],
+			"overwrite": {
+				"ability": true
+			}
+		},
+        {
+			"name": "Half-breed",
+			"source": "MysfPg",
+			"raceName": "Kumiho",
+			"raceSource": "MysfPg",
+			"lineage": null,
+			"ability": [
+				{
+                    
+					"cha": 2,
+					"con": 1
+				}
+			],
+			"entries": [
+                "With such beautiful human forms, it was only a matter of time for a half-breed kumiho to be born.",
+				{
+					"name": "Half Blood",
+					"entries": [
+						"In your human form your claws, tail, and ears are not visible if you wish to hide them. Creatures can identify you as a half-blood kumiho using an Investigation check with a DC of 12 + your level. Your \"human\" form takes the appearance of your half-blood parentage instead of human but you are still Medium sized."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Family Connection",
+					"entries": [
+						"Select a race other than kumiho to be the base of your other parent. You may select a subrace from that race and benefit from it's traits. If the chosen race does't have a subrace (e.g. Human) you may choose one trait from the race. The chosen trait can't be ability score increase, alignment, speed, size, or age."
+					],
+					"type": "entries"
+				}
+			],
+			"overwrite": {
+				"ability": true
+			}
+		},
+        {
+			"name": "Draconic",
+			"source": "MysfPg",
+			"raceName": "Kumiho",
+			"raceSource": "MysfPg",
+			"lineage": null,
+			"ability": [
+				{
+                    
+					"cha": 2,
+					"str": 1
+				}
+			],
+			"entries": [
+                "Somewhere in your lineage, dragon blood or a dragon’s blessing found its way to you. Unlike other kumiho, you have a pair of dragon-like horns and eyes, and some parts of your dragon body may even have patches of scales. The horns and eyes are visible in your human form. Pick a dragon color from the table below during character creation to determine your subrace trait elements. **Discuss this subrace with you DM before selecting it.",
+				{
+					"name": "Ancestral Breath",
+					"entries": [
+						"Your bloodline has blessed you with a breath attack. As a action, you may use a breath attack matching the element and shape of the dragon color you have selected from the table below. The damage increases to 2d6 at 6th level, 3d6 at 11th level, and 4d6 at 16th level. The target creature may make the appropriate save with a DC of 12 + Constitution modifier. On a successful save they take half damage. You may use this trait once and regain its use after you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Dragon Form",
+					"entries": [
+						"You can take the form of a dragon once. This form is a human sized chromatic or metallic dragon of the color you selected. You are medium while in this form, have a fly speed of 30ft, and have advantage to Constitution saves. You can freely use your ancestral breath while in this form a number of times equal to your level, but lose your ancestral breath. This transformation lasts 1 minute and you regain its use after finishing a long rest."
+					],
+					"type": "entries"
+				},
+                {
+					"entries": [
+						{
+							"name": "Dragon Type",
+							"entries": [
+								"You can select one of the following Dragon Types to be your dragon form.",
+								{
+									"type": "list",
+									"style": "list-hang",
+									"items": [
+										{
+											"name": "Black",
+											"entries": [
+                                                "Type: Acid - Breath Weapon: 5 by 30 ft line (Dex Save)"
+											],
+											"type": "entries"
+										},
+										{
+											"name": "Blue",
+											"entries": [
+                                                "Type: Lightning - Breath Weapon: 5 by 30 ft line (Dex Save)"
+											],
+											"type": "entries"
+										},
+										{
+											"name": "Brass",
+											"entries": [
+                                                "Type: Fire - Breath Weapon: 5 by 30 ft line (Dex Save)"
+											],
+											"type": "entries"
+										},
+										{
+											"name": "Bronze",
+											"entries": [
+                                                "Type: Lightning - Breath Weapon: 5 by 30 ft line (Dex Save)"
+											],
+											"type": "entries"
+										},
+										{
+											"name": "Copper",
+											"entries": [
+                                                "Type: Acid - Breath Weapon: 5 by 30 ft line (Dex Save)"
+											],
+											"type": "entries"
+										},
+										{
+											"name": "Gold",
+											"entries": [
+                                                "Type: Fire - Breath Weapon: 15 ft cone (Dex Save)"
+											],
+											"type": "entries"
+										},
+										{
+											"name": "Green",
+											"entries": [
+                                                "Type: Poison - Breath Weapon: 15 ft cone (Con Save)"
+											],
+											"type": "entries"
+										},
+										{
+											"name": "Red",
+											"entries": [
+                                                "Type: Fire - Breath Weapon: 15 ft cone (Dex Save)"
+											],
+											"type": "entries"
+										},
+										{
+											"name": "Silver",
+											"entries": [
+                                                "Type: Cold - Breath Weapon: 15 ft cone (Con Save)"
+											],
+											"type": "entries"
+										},
+										{
+											"name": "White",
+											"entries": [
+                                                "Type: Cold - Breath Weapon: 15 ft cone (Con Save)"
+											],
+											"type": "entries"
+										}
+									]
+								}
+							],
+							"type": "entries"
+						}
+					],
+					"type": "entries"
+				}
+			],
+			"overwrite": {
+				"ability": true
+			}
+		}
+	]
+}
