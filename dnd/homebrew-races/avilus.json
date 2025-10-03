@@ -1,0 +1,146 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "MYSF:Avilus",
+                "full": "Avilus",
+                "abbreviation": "MYSF",
+                "authors": [
+                    "D&D Wiki Homebrew"
+                ],
+                "version": "2025.10.01",
+                "url": "https://www.dandwiki.com/wiki/Avilus_(5e_Race)"
+            }
+        ],
+        "dateAdded": 1545342498,
+        "dateLastModified": 1759356960,
+        "_dateLastModifiedHash": "a8f9c3d7e1",
+        "edition": "classic"
+    },
+    "race": [
+        {
+            "name": "Avilus",
+            "source": "MYSF:Avilus",
+            "ability": [
+                {
+                    "dex": 1,
+                    "cha": 1
+                }
+            ],
+            "speed": {
+                "walk": 10,
+                "fly": 50
+            },
+            "size": [
+                "S"
+            ],
+            "traitTags": [
+                "Small Race",
+                "Flight",
+                "Skill Proficiency"
+            ],
+            "entries": [
+                "Optimistic songbirds that are just as likable as they are fast.",
+                {
+                    "name": "Age",
+                    "entries": [
+                        "Most avilus live to about 150–200 years, aging only once they have about a decade left to live."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Alignment",
+                    "entries": [
+                        "All avilus are good without a doubt, but while most are lawful, a few adventurers lean chaotic."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Size",
+                    "entries": [
+                        "Your size is Small."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Avian Anatomy",
+                    "entries": [
+                        "Your wings act as your hands for wielding weapons and casting spells. While flying or hovering, you can only take the Attack action with undersized weapons, using your toes to hold or draw them."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Overwhelming Positivity",
+                    "entries": [
+                        "You are proficient in the {@skill Persuasion} skill. You may double your proficiency bonus when making a Persuasion check on a creature currently in a negative emotional state (such as depression or anger)."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Creature Type",
+                    "entries": [
+                        "Your creature type is beast."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and Auran."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "persuasion": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "auran": true
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Avilus are small, intelligent birds created long ago by a lonely wizard who accidentally granted a bird sentience. Since then, they have spread across the Material Plane and even into the Elemental Plane of Air.",
+                    "They hide their intellect from most other races, but are known for their radiant positivity and their tendency to cheer up those who are sad or angry.",
+                    {
+                        "name": "Society",
+                        "entries": [
+                            "Avilus live among other races, often acting as companions or counselors. They keep their ability to speak secret, but sometimes reveal it to comfort others."
+                        ],
+                        "type": "entries"
+                    },
+                    {
+                        "name": "Names",
+                        "entries": [
+                            "Avilus adopt the first names of other races, such as human, elven, or dwarven names.",
+                            {
+                                "entries": [
+                                    {
+                                        "name": "Male Names",
+                                        "entries": [
+                                            "Aseir, Bardeid, Adran, Quarion, Taklinn, Timu, Thorin"
+                                        ],
+                                        "type": "entries"
+                                    },
+                                    {
+                                        "name": "Female Names",
+                                        "entries": [
+                                            "Atala, Ceidil, Jelenneth, Thia, Kathra, Mardred"
+                                        ],
+                                        "type": "entries"
+                                    }
+                                ],
+                                "type": "entries"
+                            }
+                        ],
+                        "type": "entries"
+                    }
+                ]
+            }
+        }
+    ]
+}

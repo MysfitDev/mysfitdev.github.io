@@ -1,0 +1,148 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "MYSF:HouseDragon",
+                "full": "House Dragon",
+                "abbreviation": "MYSF",
+                "authors": [
+                    "D&D Wiki Homebrew"
+                ],
+                "version": "2025.10.01",
+                "url": "https://www.dandwiki.com/wiki/House_Dragon_(5e_Race)"
+            }
+        ],
+        "dateAdded": 1545342498,
+        "dateLastModified": 1759356960,
+        "_dateLastModifiedHash": "e3c7a9f4b2",
+        "edition": "classic"
+    },
+    "race": [
+        {
+            "name": "House Dragon",
+            "source": "MYSF:HouseDragon",
+            "ability": [
+                {
+                    "con": 2,
+                    "cha": 1
+                }
+            ],
+            "speed": {
+                "walk": 40
+            },
+            "size": [
+                "S"
+            ],
+            "traitTags": [
+                "Quadruped",
+                "Natural Armor",
+                "Natural Weapons",
+                "Poison Resistance"
+            ],
+            "entries": [
+                "Small, quadrupedal dragons who aren’t afraid to go out adventuring with their bipedal peers.",
+                {
+                    "name": "Age",
+                    "entries": [
+                        "House dragons reach maturity in about 10 years, and live to be about 50; not nearly as long as larger dragons, mainly due to the breeding process."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Alignment",
+                    "entries": [
+                        "Alignment tendencies were bred out of your species long ago, so your alignment tends to lean toward whatever group of non‑House Dragons you grew up with."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Size",
+                    "entries": [
+                        "House dragons stand 2 to 3 feet at the shoulder and weigh around 100 pounds. Your size is Small."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Feral Stance",
+                    "entries": [
+                        "You are a quadruped. Your forepaws have opposable thumbs, allowing you to manipulate objects, but you cannot properly wield weapons made for bipeds. You cannot use two‑handed weapons or dual‑wield, and you cannot don armor made for bipeds (you require barding). Shields do not grant AC bonuses. Actions requiring free hands (loading weapons, drinking potions, casting spells with material components) cost 5 feet of movement."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Natural Defenses",
+                    "entries": [
+                        "Your scales provide protection. You gain a +1 bonus to AC."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Natural Offenses",
+                    "entries": [
+                        "You have a claw attack and a bite attack, considered unarmed strikes. They deal 1d6 + Strength modifier damage. Claws deal slashing damage and have the finesse property; bites deal piercing damage."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Big Eater",
+                    "entries": [
+                        "You have advantage on checks to resist poison and disease transmitted via food and drink, and on checks to consume large or questionable amounts of food and drink."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and Draconic."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "draconic": true
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "House dragons are miniature, wingless dragons bred to live indoors. They lack breath weapons and wings, but retain draconic charisma and resilience. They serve as companions, familiars, and even adventurers.",
+                    {
+                        "name": "Society",
+                        "entries": [
+                            "House dragons live among other species rather than forming their own societies. They are social and adapt to the culture they are raised in."
+                        ],
+                        "type": "entries"
+                    },
+                    {
+                        "name": "Names",
+                        "entries": [
+                            "House dragons adopt the naming conventions of the cultures they live with, rather than having their own."
+                        ],
+                        "type": "entries"
+                    },
+                    {
+                        "name": "Random Height and Weight",
+                        "entries": [
+                            "Base Height: 2'0\" + 1d12 in.",
+                            "Base Weight: 100 lb. × (1d12)"
+                        ],
+                        "type": "entries"
+                    }
+                ]
+            },
+            "variants": [
+                {
+                    "name": "Coward Mode",
+                    "entries": [
+                        "Variant rules for players who don’t want to deal with quadruped restrictions:",
+                        "- You may apply proficiency to a single one‑handed weapon wielded in your mouth.",
+                        "- You may fulfill somatic components by wagging your tail, and material components by merely having them on your person.",
+                        "- Movement penalties from Feral Stance no longer apply."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        }
+    ]
+}
