@@ -14,7 +14,7 @@ interface RaceEntry {
   icon?: React.ReactNode;
 }
 
-export default function RacePage({ params }: { params: { race: string } }) {
+export default function RacePage() {
   const races: RaceEntry[] = [
     {
       name: 'Avilus',

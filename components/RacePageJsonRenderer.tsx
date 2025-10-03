@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import {
   OutlinedInput,
@@ -19,9 +21,13 @@ export default function RagePageJsonRenderer({
   const [data, setData] = useState<string | null>(null);
   const [error, setError] = useState(false);
 
-  const origin = window.location.origin;
+  const [origin, setOrigin] = useState<string | null>(null);
+
   const path = `/data/dnd/homebrew/races/${race}.json`;
-  const fullPath = `${origin}${path}`;
+
+  useEffect(() => {
+    setOrigin(window.location.origin);
+  }, []);
 
   useEffect(() => {
     if (!race) return;
@@ -39,10 +45,19 @@ export default function RagePageJsonRenderer({
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
-    await navigator.clipboard.writeText(fullPath);
+    if (!origin || !path) return;
+
+    await navigator.clipboard.writeText(`${origin}${path}`);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
+
+  if (error)
+    return (
+      <Container className="flex flex-col gap-2">
+        <h1 className="text-3xl font-bold mb-4">An Error Occurred</h1>
+      </Container>
+    );
 
   return (
     <Container className="flex flex-col gap-2">
@@ -56,7 +71,7 @@ export default function RagePageJsonRenderer({
             </Button>
           </InputAdornment>
         }
-        defaultValue={fullPath}
+        defaultValue={`${origin}${path}`}
       />
       <Container className="bg-neutral-900 rounded-lg">
         <pre className="overflow-x-auto text-sm">{data}</pre>

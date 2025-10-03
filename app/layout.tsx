@@ -21,7 +21,6 @@ import {
   Toolbar,
   Typography,
 } from '@mui/material';
-import { ThemeProvider as BaseThemeProvider } from 'next-themes';
 import { Menu } from '@mui/icons-material';
 
 interface MenuOptions {
@@ -75,39 +74,37 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html className="dark">
       <body>
-        <BaseThemeProvider defaultTheme="dark" attribute="class">
-          <ThemeProvider theme={darkTheme}>
-            <CssBaseline />
-            <main>
-              <Drawer open={open} onClose={toggleDrawer(false)}>
-                {DrawerList}
-              </Drawer>
-              <AppBar>
-                <Toolbar className="flex justify-between">
-                  <Typography variant="h6" color="inherit" component="div">
-                    <Link href="https://mysfitdev.github.io">
-                      mysfitdev.github.io
-                    </Link>
-                  </Typography>
-                  <IconButton
-                    onClick={toggleDrawer(true)}
-                    edge="start"
-                    color="inherit"
-                    aria-label="menu"
-                    sx={{ mr: 2 }}
-                  >
-                    <Menu />
-                  </IconButton>
-                </Toolbar>
-              </AppBar>
-              <div className="mt-16">
-                <Container className="p-8" maxWidth={false}>
-                  {children}
-                </Container>
-              </div>
-            </main>
-          </ThemeProvider>
-        </BaseThemeProvider>
+        <ThemeProvider theme={darkTheme}>
+          <CssBaseline />
+          <main>
+            <Drawer open={open} onClose={toggleDrawer(false)}>
+              {DrawerList}
+            </Drawer>
+            <AppBar>
+              <Toolbar className="flex justify-between">
+                <Typography variant="h6" color="inherit" component="div">
+                  <Link href="https://mysfitdev.github.io">
+                    mysfitdev.github.io
+                  </Link>
+                </Typography>
+                <IconButton
+                  onClick={toggleDrawer(true)}
+                  edge="start"
+                  color="inherit"
+                  aria-label="menu"
+                  sx={{ mr: 2 }}
+                >
+                  <Menu />
+                </IconButton>
+              </Toolbar>
+            </AppBar>
+            <div className="mt-16">
+              <Container className="p-8" maxWidth={false}>
+                {children}
+              </Container>
+            </div>
+          </main>
+        </ThemeProvider>
       </body>
     </html>
   );
