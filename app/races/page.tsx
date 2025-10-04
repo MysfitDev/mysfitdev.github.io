@@ -44,6 +44,10 @@ export default function RacePage() {
       name: 'Pipe Fox',
       pathName: 'pipe_fox',
     },
+    {
+      name: 'Robot',
+      pathName: 'robot',
+    },
   ];
 
   return (
