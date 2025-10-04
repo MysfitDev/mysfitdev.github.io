@@ -1,0 +1,204 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "MYSF:Robot",
+        "full": "Robot",
+        "abbreviation": "MYSF",
+        "authors": ["D&D Wiki Homebrew"],
+        "version": "2025.10.01",
+        "url": "https://www.dandwiki.com/wiki/Robot_(5e_Race)"
+      }
+    ],
+    "dateAdded": 1545342498,
+    "dateLastModified": 1759356960,
+    "_dateLastModifiedHash": "robot123",
+    "edition": "classic"
+  },
+  "race": [
+    {
+      "name": "Robot",
+      "source": "MYSF:Robot",
+      "ability": [
+        {
+          "con": 2
+        }
+      ],
+      "speed": {
+        "walk": 30
+      },
+      "languageProficiencies": [
+        {
+          "common": true
+        }
+      ],
+      "size": ["M"],
+      "traitTags": ["Construct", "Damage Resistance", "Condition Immunity"],
+      "entries": [
+        "Artificial beings of metal and circuitry, robots are manufactured constructs that have gained sentience.",
+        {
+          "name": "Age",
+          "entries": [
+            "Robots do not age naturally. They can function indefinitely with proper maintenance, though most break down after a few centuries."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Alignment",
+          "entries": [
+            "Robots tend toward lawful alignments, following their programming, though free‑willed robots may adopt any alignment."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Size",
+          "entries": [
+            "Robots are built in humanoid form, typically between 5 and 7 feet tall. Your size is Medium."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Constructed Nature",
+          "entries": [
+            "You are a mass of metals, wires, and whatnot. Your creature type is construct instead of humanoid. As such, spells like cure wounds don't affect you, and you are immune to spells like crown of madness or dominate person because they specifically target humanoids. You are immune to poison damage, being poisoned, and diseases. You do not need to eat or breathe, and you cannot attempt to do so. Rather than sleeping, you enter an inactive state for 6 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Integrated Protection",
+          "entries": [
+            "Your AC can never be lower than 10 + your Constitution modifier."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Languages",
+          "entries": ["You can speak, read, and write Common."],
+          "type": "entries"
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Battle Robot",
+          "ability": [
+            {
+              "str": 1
+            }
+          ],
+          "speed": {
+            "walk": 35
+          },
+          "entries": [
+            {
+              "name": "War Proficiency",
+              "entries": [
+                "You are proficient with any four martial weapons of your choice."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Fast",
+              "entries": ["Your base walking speed increases to 35 feet."],
+              "type": "entries"
+            },
+            {
+              "name": "Battle Dash",
+              "entries": [
+                "You can move up to half your walking speed after taking an attack action. This movement does not provoke opportunity attacks. You can do this a number of times equal to your proficiency bonus, and you regain all uses when you finish a long rest."
+              ],
+              "type": "entries"
+            }
+          ]
+        },
+        {
+          "name": "Manufacturer Robot",
+          "ability": [
+            {
+              "int": 1
+            }
+          ],
+          "skillProficiencies": [
+            {
+              "investigation": true
+            }
+          ],
+          "languages": ["Common", "one other language of your choice"],
+          "entries": [
+            {
+              "name": "Mercantile Programming",
+              "entries": ["You learn one language of your choice."],
+              "type": "entries"
+            },
+            {
+              "name": "Manufacture",
+              "entries": [
+                "You are proficient in an artisan's tool of your choice. Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a single simple item worth no more than 10 gp. The item should be relevant to the nature of the tool you are proficient in. For example, leatherworker's tools would allow you to make a simple belt or a cloak. Glassblower's tools might allow you to make a simple, but crude vase."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Quality Check",
+              "entries": [
+                "Whenever you make an ({@skill Investigation}) check related to defects in a product, you are considered proficient in the Investigation skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+              ],
+              "type": "entries"
+            }
+          ]
+        },
+        {
+          "name": "Medical Robot",
+          "ability": [
+            {
+              "wis": 1
+            }
+          ],
+          "skillProficiencies": [
+            {
+              "medicine": true
+            }
+          ],
+          "entries": [
+            {
+              "name": "Medical Sensor",
+              "entries": [
+                "As an action, you can sense if any creatures within 60 feet of you are currently affected by poisons or diseases. You do not know what the poison or disease is."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "First Aid",
+              "entries": [
+                "You can cast cure wounds a number of times equal to your proficiency bonus, using Wisdom as your spellcasting modifier. You regain use of this trait after you finish a long rest."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Medical Knowledge",
+              "entries": ["You are proficient in Medicine."],
+              "type": "entries"
+            }
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Robots are manufactured constructs, often created for war, labor, or specialized tasks. Over time, some have developed free will and independence, becoming adventurers or companions.",
+          {
+            "name": "Society",
+            "entries": [
+              "Robots do not form societies of their own, instead integrating into the cultures of their creators or wandering as individuals."
+            ],
+            "type": "entries"
+          },
+          {
+            "name": "Names",
+            "entries": [
+              "Robots are often designated by serial numbers or functional titles, though some adopt personal names."
+            ],
+            "type": "entries"
+          }
+        ]
+      }
+    }
+  ]
+}
