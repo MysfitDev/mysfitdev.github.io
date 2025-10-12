@@ -9,11 +9,7 @@
         "version": "2025.10.01",
         "url": "https://www.dandwiki.com/wiki/Kemonomimi_(5e_Race)"
       }
-    ],
-    "dateAdded": 1545342498,
-    "dateLastModified": 1759356960,
-    "_dateLastModifiedHash": "kemono2025",
-    "edition": "classic"
+    ]
   },
   "race": [
     {
@@ -27,46 +23,16 @@
           }
         }
       ],
-      "speed": {
-        "walk": 30
-      },
+      "speed": { "walk": 30 },
       "size": ["M"],
-      "traitTags": [
-        "Subrace Required",
-        "Darkvision",
-        "Skill Proficiency",
-        "Natural Weapons",
-        "Flight (some subraces)"
-      ],
+      "traitTags": ["Subrace Required"],
       "entries": [
         "Kemonomimi are humanoids with animal-like features such as ears, tails, wings, or horns. Their appearance varies widely depending on their subrace.",
-        {
-          "name": "Age",
-          "entries": [
-            "Kemonomimi reach adulthood in their late teens and live less than a century, similar to humans."
-          ],
-          "type": "entries"
-        },
-        {
-          "name": "Alignment",
-          "entries": [
-            "Kemonomimi tend toward no particular alignment. The best and worst are found among them."
-          ],
-          "type": "entries"
-        },
-        {
-          "name": "Size",
-          "entries": [
-            "Kemonomimi vary in height from just under 5 feet to well over 6 feet tall. Your size is Medium."
-          ],
-          "type": "entries"
-        },
         {
           "name": "Languages",
           "entries": [
             "You can speak, read, and write Common and one extra language of your choice."
-          ],
-          "type": "entries"
+          ]
         }
       ],
       "languageProficiencies": [
@@ -80,93 +46,353 @@
       ],
       "subraces": [
         {
+          "name": "Bear-Eared",
+          "ability": [{ "str": 2 }],
+          "entries": [
+            "You have the small round bear ears and a stubby bear tail.",
+            {
+              "name": "Hibernation Preparation",
+              "entries": [
+                "Bears need to hibernate through the winter, but you don't. After eating at least 1 pound of food beyond your requirement for the day, you gain 1d6 temporary hit points for the next hour."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Keen Smell",
+              "entries": [
+                "Bears have a good sense of smell, thus you have proficiency in the Perception skill."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Mama Bear",
+              "entries": [
+                "When an ally creature is hit while you're within 5 feet of them, you can use your reaction to do a melee weapon attack on the attacker if they are within your weapon's reach. You regain usage of this feature when you finish a short or long rest."
+              ],
+              "type": "entries"
+            }
+          ],
+          "skillProficiencies": [{ "perception": true }],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Cow-Eared",
+          "ability": [{ "str": 2 }],
+          "entries": [
+            "You have floppy cow ears, a long furry cow tail and the horns of a cow/bull. ",
+            {
+              "name": "Charge",
+              "entries": [
+                "If you move at least 20 feet in a straight line towards a creature and then make a successful attack with your horns, the target must make a Strength saving throw or be knocked prone. The DC equals 8 + your proficiency bonus + your Strength modifier."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Horns",
+              "entries": [
+                "In addition to your cow-ears, you have natural horns. When you do an unarmed attack, you can instead use your horns to do 1d6 piercing damage using your Strength as attack and damage modifiers as normal."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Improved Digestion",
+              "entries": [
+                "Your single stomach has more digestive compartments, and thus you can eat things humans normally can't digest like grass and it'd count as food for you. However, you need twice the amount of food a normal Medium-sized creature requires each day."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Powerful Build",
+              "entries": [
+                "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+              ],
+              "type": "entries"
+            }
+          ],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Wolf-Eared",
+          "ability": [{ "str": 2 }],
+          "entries": [
+            "You have the pointed ears of a wolf and fluffy wolf's tail.",
+            {
+              "name": "Darkvision",
+              "entries": [
+                "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Keen Smell and Hearing",
+              "entries": [
+                "Wolves have a good sense of smell and hearing, thus you have proficiency in the Perception skill."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Pack Tactics",
+              "entries": [
+                "You have advantage on an attack roll against a creature if at least one of the your allies is within 5 ft. of the creature and the ally isn't incapacitated."
+              ],
+              "type": "entries"
+            }
+          ],
+          "skillProficiencies": [{ "perception": true }],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Lion-Eared",
+          "ability": [{ "str": 2 }],
+          "entries": [
+            "You have the Fluffy ears of a Lion and fluffy Lion's tail.",
+            {
+              "name": "Teeth and Claws",
+              "entries": [
+                "You have retractable claws and very sharp teeth, this allows you to do an unarmed attack of 1D8 + Str with your Bite or 1D6 + Str with your claws."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Keen Smell",
+              "entries": [
+                "Lions have a good sense of smell, thus you have proficiency in the Perception skill."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Pack Tactics",
+              "entries": [
+                "You have advantage on an attack roll against a creature if at least one of the your allies is within 5 ft. of the creature and the ally isn't incapacitated."
+              ],
+              "type": "entries"
+            }
+          ],
+          "skillProficiencies": [{ "perception": true }],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
           "name": "Cat-Eared",
           "ability": [{ "dex": 2 }],
           "entries": [
+            "You have the triangle-shaped ears of a cat and a long furry cat tail.",
             {
               "name": "Cat Burglar",
-              "entries": ["You are proficient in the Stealth skill."]
+              "entries": [
+                "As a cat, you enter and exit without being noticed. You are proficient in Stealth."
+              ],
+              "type": "entries"
             },
             {
               "name": "Darkvision",
               "entries": [
-                "You can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light."
-              ]
+                "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+              ],
+              "type": "entries"
             },
             {
               "name": "Hunter",
               "entries": [
-                "You can cast the hunter's mark spell once per long rest."
-              ]
+                "You are a natural hunter, and you focus on your prey with conviction. You can cast the hunter's mark spell once. You regain usage of this feature after you complete a long rest."
+              ],
+              "type": "entries"
             },
             {
               "name": "Naturally Graceful",
-              "entries": ["You have resistance to fall damage."]
+              "entries": [
+                "Cats always land on their feet. You have resistance to fall damage."
+              ],
+              "type": "entries"
             }
           ],
           "skillProficiencies": [{ "stealth": true }],
-          "additionalSpells": [
-            {
-              "innate": {
-                "1": ["hunter's mark"]
-              }
-            }
-          ],
           "overwrite": {
             "ability": true
           }
         },
         {
-          "name": "Dog-Eared",
-          "ability": [{ "cha": 2 }],
-          "entries": [
-            {
-              "name": "Alpha Dog",
-              "entries": [
-                "You know the guidance cantrip and can cast heroism once per long rest."
-              ]
-            },
-            {
-              "name": "Keen Senses",
-              "entries": ["You are proficient in the Perception skill."]
-            },
-            {
-              "name": "Puppy Dog Eyes",
-              "entries": ["You are proficient in the Persuasion skill."]
-            }
-          ],
-          "skillProficiencies": [
-            { "perception": true },
-            { "persuasion": true }
-          ],
-          "additionalSpells": [
-            {
-              "innate": {
-                "0": ["guidance"],
-                "1": ["heroism"]
-              }
-            }
-          ],
-          "overwrite": {
-            "ability": true
-          }
-        },
-        {
-          "name": "Bird-Eared",
+          "name": "Feather-Eared",
           "ability": [{ "dex": 2 }],
           "entries": [
+            "You have small feathered wings where your ears are, a feathered bird tail, along with their feathered wings.",
             {
               "name": "Bird Wings",
               "entries": [
-                "You have a flying speed of 30 feet. You must move at least half your speed each turn or fall."
-              ]
+                "In addition to your ears and tail, you have bird wings between the shoulder blade and hip area and you gain a flight speed of 30 feet. While flying, if you do not move at least half your speed during your turn, you fall to the ground. You may not fly in normal backpacks or armor. The cost to alter your gear to be suitable for flight is equal to half the cost of the gear."
+              ],
+              "type": "entries"
             },
             {
               "name": "Keen Sight",
-              "entries": ["You are proficient in the Perception skill."]
+              "entries": [
+                "Birds are very good at spotting and finding prey. You are proficient in Perception."
+              ],
+              "type": "entries"
+            }
+          ],
+          "speed": {
+            "fly": 30
+          },
+          "skillProficiencies": [{ "perception": true }],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Raccoon-Eared",
+          "ability": [{ "dex": 2 }],
+          "entries": [
+            "You have the pointed ears of a raccoon and a stripped furry fail",
+            {
+              "name": "Darkvision",
+              "entries": [
+                "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Natural Bandit",
+              "entries": [
+                "As a scavenger, raccoons naturally steal things. You are proficient in Sleight of Hand and Thieves' Tools."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Tree Climber",
+              "entries": [
+                "Raccoons can climb trees, but since you have human-like hands, you can't climb as well. When attempting to climb trees with an Athletics check, you may use Dexterity as the modifier instead of Strength."
+              ],
+              "type": "entries"
+            }
+          ],
+          "skillProficiencies": [{ "sleightOfHand": true }],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Horse-Eared",
+          "ability": [{ "con": 2 }],
+          "entries": [
+            "You have the ears of a horse or pony, along with their long-haired tail. ",
+            {
+              "name": "Charge",
+              "entries": [
+                "If you move at least 20 feet straight towards a creature and then attempt to shove it to knock it prone, the target instead must make a Strength saving throw or be knocked prone. The DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Swift Steed",
+              "entries": ["Your base walking speed increases to 35 feet."],
+              "type": "entries"
+            },
+            {
+              "name": "Work Horse",
+              "entries": [
+                "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest."
+              ],
+              "type": "entries"
+            }
+          ],
+          "speed": {
+            "walk": 35
+          },
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Pig-Eared",
+          "ability": [{ "con": 2 }],
+          "entries": [
+            "You have the large ears of a pig and their coiled tails",
+            {
+              "name": "Keen Smell",
+              "entries": [
+                "Pigs are very good at foraging with their nose, thus you have proficiency in the Perception skill."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Pig Fat",
+              "entries": [
+                "Your fat gives you more endurance, your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+              ],
+              "type": "entries"
             }
           ],
           "skillProficiencies": [{ "perception": true }],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Sheep-Eared",
+          "ability": [{ "con": 2 }],
+          "entries": [
+            "You have the long pointed ears of a sheep, along with their wool-like hair, curved horns, and cute little tail.",
+            {
+              "name": "Horns",
+              "entries": [
+                "In addition to your sheep-ears, you have natural curved horns. Your unarmed strikes using your Horns deal 1d4 bludgeoning damage."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Sure-Footed",
+              "entries": [
+                "You have advantage on Strength and Dexterity saving throws made against effects that would knock you prone."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Woolly Hair",
+              "entries": [
+                "Instead of hair, you grow wool on your body instead, giving you extra protection. When unarmored, your Armor Class is equal to 12 + your Dexterity modifier."
+              ],
+              "type": "entries"
+            }
+          ],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Bat-Eared",
+          "ability": [{ "int": 2 }],
+          "entries": [
+            "You have the large wide ears of a bat, bat wings growing out your back, and possibly a tail if your species had one.",
+            {
+              "name": "Bat Roost",
+              "entries": [
+                "When grabbing fixtures on a ceiling (such as chandeliers or stalactites), or long appendages sticking out (such as a flagpole sticking on the side or branches of trees), you can hang upside-down on them without making an ability check if you occupy both your hands on it. You cannot hang upside down on smooth surfaces where there's nothing to grab onto. However, you're not a real bat and you have human hands instead of claws, so the blood will rush to your head and you will lose your grip. Thus, you can only hang like this for a minute without moving. At the end of the minute, if you did not move, you start falling."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Bat Wings",
+              "entries": [
+                "In addition to your ears and tail, you have bat wings between the shoulder blade and hip area and you gain a flight speed of 30 feet. But due to the short wingspan due to being a kemonomimi, while flying, if you do not move at least half your speed during your turn, you fall to the ground. If you are wearing armor you are not proficient in or any medium or heavy armor, you may not fly."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Echolocation",
+              "entries": [
+                "You can perceive your surroundings without relying on sight within a specific radius. You have a blindsight range of 10 feet. You can't use your blindsight while deafened."
+              ],
+              "type": "entries"
+            }
+          ],
           "speed": {
             "fly": 30
           },
@@ -175,52 +401,424 @@
           }
         },
         {
-          "name": "Fox-Eared",
-          "ability": [{ "cha": 2 }],
+          "name": "Dragon-Eared (Chromatic)",
+          "ability": [{ "int": 2 }],
           "entries": [
+            "You have the wings and horns of a dragon along with their scaled tails.",
+            {
+              "name": "Breath Weapon",
+              "entries": [
+                "You can use your action to exhale destructive energy, just like a dragon. Choose one type of dragon on the Dragonborn's Draconic Ancestry table determines the size, shape, and damage type of the exhalation. This counts as your draconic ancestry, but it does not give you the damage resistance. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one.The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. You can only do this a number of times equal to your proficiency bonus, and you regain all uses after a long rest."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Dragon Wings",
+              "entries": [
+                " In addition to your ears and tail, you have dragon wings between the shoulder blade and hip area and you gain a flight speed of 30 feet. If you are wearing armor you are not proficient in or any Medium or Heavy armor, you may not fly. Must keep moving. While flying, if you do not move at least half your speed during your turn, you fall to the ground."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Chromatic Protection",
+              "entries": [
+                "Starting at 3rd level, as an action, you can channel your draconic energies to protect yourself. For 10 minutes, you become resistant to the damage type associated with your Chromatic Ancestry. Once you use this trait, you cannot do so again until you finish a long rest."
+              ],
+              "type": "entries"
+            }
+          ],
+          "speed": {
+            "fly": 30
+          },
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Dragon-Eared (Metallic)",
+          "ability": [{ "int": 2 }],
+          "entries": [
+            "You have the wings and horns of a dragon along with their scaled tails.",
+            {
+              "name": "Breath Weapon",
+              "entries": [
+                "You can use your action to exhale destructive energy, just like a dragon. Choose one type of dragon on the Dragonborn's Draconic Ancestry table determines the size, shape, and damage type of the exhalation. This counts as your draconic ancestry, but it does not give you the damage resistance. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one.The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. You can only do this a number of times equal to your proficiency bonus, and you regain all uses after a long rest."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Dragon Wings",
+              "entries": [
+                " In addition to your ears and tail, you have dragon wings between the shoulder blade and hip area and you gain a flight speed of 30 feet. If you are wearing armor you are not proficient in or any Medium or Heavy armor, you may not fly. Must keep moving. While flying, if you do not move at least half your speed during your turn, you fall to the ground."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Metallic Breath",
+              "entries": [
+                "At 5th level, you gain a second breath weapon. When you take the Attack action on your turn, you can replace one of your attacks with an exhale in a 15-foot cone. The saving throw DC for this breath is 8 + your Constitution modifier + your proficiency bonus. Whenever you use this feature, choose one: Unnerving Breath. Each creature in the cone must succeed on a Constitution saving throw or be incapacitated until the start of your next turn. Repulsion Breath.* Each creature in the cone must succeed on a Strength saving throw or be pushed 20 feet away from you and fall to the ground.Once you use your Metal Breath, you can't do it again until you finish a long rest."
+              ],
+              "type": "entries"
+            }
+          ],
+          "speed": {
+            "fly": 30
+          },
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Dragon-Eared (Gem)",
+          "ability": [{ "int": 2 }],
+          "entries": [
+            "You have the wings and horns of a dragon along with their scaled tails.",
+            {
+              "name": "Breath Weapon",
+              "entries": [
+                "You can use your action to exhale destructive energy, just like a dragon. Choose one type of dragon on the Dragonborn's Draconic Ancestry table determines the size, shape, and damage type of the exhalation. This counts as your draconic ancestry, but it does not give you the damage resistance. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one.The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. You can only do this a number of times equal to your proficiency bonus, and you regain all uses after a long rest."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Dragon Wings",
+              "entries": [
+                " In addition to your ears and tail, you have dragon wings between the shoulder blade and hip area and you gain a flight speed of 30 feet. If you are wearing armor you are not proficient in or any Medium or Heavy armor, you may not fly. Must keep moving. While flying, if you do not move at least half your speed during your turn, you fall to the ground."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Gem Rarity",
+              "entries": [
+                "Unlike many Dragonborns, you gain a Draconic breath that is different from the others. Choose one from Psychic, Radiant, Strength, Necrotic, or Thunder."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Psionic Mind",
+              "entries": [
+                "You can speak telepathically to any creature you can see within 60 feet of you. You don't have to share a language with the creature, but the creature must be able to understand at least one language. You have the creature talk to you for up to 1 hour. To do this, she needs to see and be aware to do this or you will terminate this effect (no action needed)."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Gift of the Gem Dragons",
+              "entries": [
+                "You know the Silver Mind trick, which you use at will. Starting at 3rd level, you gain Tasha's steric laughter spell. Starting at 5th level, you gain the Detect Thoughts spell. Once you use one of the high-level spells, you can't use it again after a short or long rest. Intelligence, Wisdom or Charisma is your ability to cast these spells."
+              ],
+              "type": "entries"
+            }
+          ],
+          "speed": {
+            "fly": 30
+          },
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Mouse-Eared",
+          "ability": [{ "int": 2 }],
+          "entries": [
+            "You have the large round ears of a mouse and their long pointed tail. ",
             {
               "name": "Darkvision",
               "entries": [
-                "You can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light."
-              ]
+                "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Keen Smell",
+              "entries": [
+                "Mice have an amazing sense of smell, thus you have proficiency in the Perception skill."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Nimble",
+              "entries": [
+                "You can move through the space of any creature that is of a size larger than yours."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Scurry",
+              "entries": ["Your base walking speed increases to 35 feet."],
+              "type": "entries"
+            }
+          ],
+          "speed": {
+            "walk": 35
+          },
+          "skillProficiencies": [{ "perception": true }],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Monkey-Eared",
+          "ability": [{ "wis": 2 }],
+          "entries": [
+            "You look almost entirely human, except for your long furry monkey tail.",
+            {
+              "name": "Prehensile Tail",
+              "entries": [
+                "Your monkey tail can be used to hold and manipulate objects. However, your tail is not as strong as your arms, and thus, you cannot use your tail to hold things heavier than 10 pounds, nor use it to wield weapons with the heavy or two-handed property."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Smart Monkey",
+              "entries": [
+                "You can speak, read and write one extra language of your choice."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Tree Climber",
+              "entries": [
+                "Monkeys climb and swing from trees, you are proficient in Acrobatics."
+              ],
+              "type": "entries"
+            }
+          ],
+          "languageProficiencies": [
+            {
+              "choose": {
+                "from": [
+                  "elvish",
+                  "sylvan",
+                  "draconic",
+                  "auran",
+                  "aquan",
+                  "gnomish",
+                  "goblin",
+                  "infernal",
+                  "abyssal"
+                ],
+                "count": 1
+              }
+            }
+          ],
+          "skillProficiencies": [{ "acrobatics": true }],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Rabbit-Eared",
+          "ability": [{ "wis": 2 }],
+          "entries": [
+            "You have a pair of floppy or pointed rabbit ears in addition to a small fluff ball tail. ",
+            {
+              "name": "Fleet of Foot",
+              "entries": ["Your base walking speed increases to 40 feet."],
+              "type": "entries"
+            },
+            {
+              "name": "Lucky Rabbit's Foot",
+              "entries": [
+                "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Superior Hearing",
+              "entries": [
+                "Your large rabbit ears grants you an increased awareness of your surroundings compared to other kemonomimi. You are proficient in Perception."
+              ],
+              "type": "entries"
+            }
+          ],
+          "speed": {
+            "walk": 40
+          },
+          "skillProficiencies": [{ "perception": true }],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Squirrel-Eared",
+          "ability": [{ "wis": 2 }],
+          "entries": [
+            "You have pointed squirrel ears in addition to your large fluffy curved tail.",
+            {
+              "name": "Constant Prey",
+              "entries": [
+                "People are always out for your big fluffy tail, you have a +5 bonus to your passive Wisdom (Perception) score."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Forager",
+              "entries": [
+                "Squirrels can naturally find food. You are proficient in Survival and you have advantage on Survival checks when foraging."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Keen Senses",
+              "entries": [
+                "Squirrels are very good at noticing threats, you have proficiency in the Perception skill."
+              ],
+              "type": "entries"
+            }
+          ],
+          "skillProficiencies": [{ "perception": true }],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Dog-Eared",
+          "ability": [{ "cha": 2 }],
+          "entries": [
+            "You have a variety of dog ears to pick from in addition to their wide variety of different tails, appearing like the breed you are.",
+            {
+              "name": "Alpha Dog",
+              "entries": [
+                "You are inspiring and a natural leader. You know the guidance cantrip. Additionally, you can cast heroism using Charisma as your spellcasting ability modifier. You regain the use of this feature when you complete a long rest."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Keen Senses",
+              "entries": [
+                "Dogs have good hearing and a sense of smell, you have proficiency in the Perception skill."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Puppy Dog Eyes",
+              "entries": [
+                "No one can withstand your puppy dog eyes. You gain proficiency in the Persuasion skill."
+              ],
+              "type": "entries"
+            }
+          ],
+          "skillProficiencies": [{ "perception": true, "persuasion": true }],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Fin-Eared",
+          "ability": [{ "cha": 2 }],
+          "entries": [
+            "You have the pectoral fins of the fish you are where your ears are, but no tail, however your seemingly human pair of legs transform and appear as your tail fin allowing you to move very fast in the water. ",
+            {
+              "name": "Darkvision",
+              "entries": [
+                "It is very dark underwater where you live. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Fins",
+              "entries": [
+                "Your legs are your tail. As a bonus action, you can combine your legs for form your fish tail. Anything you're wearing from the waist down is automatically removed and is dropped on the floor unless it can fit your legs' new form. While in this form, your base walking speed is reduced to 15 feet and you gain a base swim speed of 50 feet."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Gills",
+              "entries": [
+                "You are the kemonomimi of the sea, and thus you can breathe air and water. You are immune to drowning."
+              ],
+              "type": "entries"
+            }
+          ],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Fox-Eared",
+          "ability": [{ "cha": 2 }],
+          "entries": [
+            "You have the pointed ears of a fox and their bushy tail.",
+            {
+              "name": "Darkvision",
+              "entries": [
+                "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+              ],
+              "type": "entries"
             },
             {
               "name": "Fox Cunning",
               "entries": [
                 "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
-              ]
+              ],
+              "type": "entries"
             },
             {
               "name": "Foxy",
               "entries": [
-                "Once per long rest, you can grant yourself advantage on a Charisma-based skill check."
-              ]
+                "Your foxy demeanor makes you hard to resist, before making a Charisma based skill check you can choose to grant yourself advantage. You regain usage of this feature when you complete a long rest."
+              ],
+              "type": "entries"
+            }
+          ],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Tiger-Eared",
+          "ability": [{ "str": 2 }],
+          "entries": [
+            "You have small ears and a large tiger tail.",
+            {
+              "name": "Darkvision",
+              "entries": [
+                "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Born Survivor",
+              "entries": [
+                "Choose 2 skills from: Athletics, Perception, Survival, Insight, Investigation and Nature to become proficient in."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Sharp nails",
+              "entries": [
+                "Your nails are like a usable natural weapon. You deal 1d6 slashing damage instead of bludgeoning."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Ferocious Roar",
+              "entries": [
+                "You enter a state of rage that reveals itself in a scream of animalistic fury. All creatures within 60 feet of you must make a Wisdom Saving Throw (DC = 8 + your proficiency bonus + Your Strength score) ​​or become frightened of you for 1 minute. You can only do this a number of times equal to your proficiency bonus, and you regain all uses after a long rest."
+              ],
+              "type": "entries"
+            }
+          ],
+          "skillProficiencies": [
+            {
+              "choose": {
+                "from": [
+                  "athletics",
+                  "perception",
+                  "survial",
+                  "insight",
+                  "investigation",
+                  "nature"
+                ],
+                "count": 2
+              }
             }
           ],
           "overwrite": {
             "ability": true
           }
         }
-      ],
-      "fluff": {
-        "entries": [
-          "Kemonomimi are humanoids with animal traits, often ears and tails. Once divided by civil war, they now live in peace and integrate into other societies. They refer to others as 'Friends' in honor of the clan that ended their conflict.",
-          {
-            "name": "Names",
-            "entries": [
-              "**Male:** Norio, Boris, Ritsuka, Kyou, Ikuto, Toby",
-              "**Female:** Eris, Kiriya, Holo, Himari, Ai, Hanekawa"
-            ]
-          },
-          {
-            "name": "Random Height and Weight",
-            "entries": [
-              "Base Height: 4'8\" + 2d10 in.",
-              "Base Weight: 110 lb. × (2d4)"
-            ]
-          }
-        ]
-      }
+      ]
     }
   ]
 }
