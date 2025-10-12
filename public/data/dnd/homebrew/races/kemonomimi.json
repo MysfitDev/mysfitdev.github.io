@@ -239,7 +239,8 @@
             }
           ],
           "speed": {
-            "fly": 30
+            "fly": 30,
+            "walk": 30
           },
           "skillProficiencies": [{ "perception": true }],
           "overwrite": {
@@ -394,7 +395,8 @@
             }
           ],
           "speed": {
-            "fly": 30
+            "fly": 30,
+            "walk": 30
           },
           "overwrite": {
             "ability": true
@@ -428,7 +430,8 @@
             }
           ],
           "speed": {
-            "fly": 30
+            "fly": 30,
+            "walk": 30
           },
           "overwrite": {
             "ability": true
@@ -462,7 +465,8 @@
             }
           ],
           "speed": {
-            "fly": 30
+            "fly": 30,
+            "walk": 30
           },
           "overwrite": {
             "ability": true
@@ -510,7 +514,8 @@
             }
           ],
           "speed": {
-            "fly": 30
+            "fly": 30,
+            "walk": 30
           },
           "overwrite": {
             "ability": true
