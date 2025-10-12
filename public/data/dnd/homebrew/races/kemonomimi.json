@@ -1,0 +1,230 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "MYSF:Kemonomimi",
+        "full": "Kemonomimi",
+        "abbreviation": "MYSF",
+        "authors": ["D&D Wiki Homebrew"],
+        "version": "2025.10.01",
+        "url": "https://www.dandwiki.com/wiki/Kemonomimi_(5e_Race)"
+      }
+    ],
+    "dateAdded": 1545342498,
+    "dateLastModified": 1759356960,
+    "_dateLastModifiedHash": "kemono2025",
+    "edition": "classic"
+  },
+  "race": [
+    {
+      "name": "Kemonomimi",
+      "source": "MYSF:Kemonomimi",
+      "ability": [
+        {
+          "choose": {
+            "from": ["str", "dex", "con", "int", "wis", "cha"],
+            "amount": 2
+          }
+        }
+      ],
+      "speed": {
+        "walk": 30
+      },
+      "size": ["M"],
+      "traitTags": [
+        "Subrace Required",
+        "Darkvision",
+        "Skill Proficiency",
+        "Natural Weapons",
+        "Flight (some subraces)"
+      ],
+      "entries": [
+        "Kemonomimi are humanoids with animal-like features such as ears, tails, wings, or horns. Their appearance varies widely depending on their subrace.",
+        {
+          "name": "Age",
+          "entries": [
+            "Kemonomimi reach adulthood in their late teens and live less than a century, similar to humans."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Alignment",
+          "entries": [
+            "Kemonomimi tend toward no particular alignment. The best and worst are found among them."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Size",
+          "entries": [
+            "Kemonomimi vary in height from just under 5 feet to well over 6 feet tall. Your size is Medium."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common and one extra language of your choice."
+          ],
+          "type": "entries"
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "common": true,
+          "choose": {
+            "from": ["elvish", "sylvan", "draconic", "auran", "aquan", "any"],
+            "count": 1
+          }
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Cat-Eared",
+          "ability": [{ "dex": 2 }],
+          "entries": [
+            {
+              "name": "Cat Burglar",
+              "entries": ["You are proficient in the Stealth skill."]
+            },
+            {
+              "name": "Darkvision",
+              "entries": [
+                "You can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light."
+              ]
+            },
+            {
+              "name": "Hunter",
+              "entries": [
+                "You can cast the hunter's mark spell once per long rest."
+              ]
+            },
+            {
+              "name": "Naturally Graceful",
+              "entries": ["You have resistance to fall damage."]
+            }
+          ],
+          "skillProficiencies": [{ "stealth": true }],
+          "additionalSpells": [
+            {
+              "innate": {
+                "1": ["hunter's mark"]
+              },
+              "rest": "long",
+              "ability": "dex"
+            }
+          ],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Dog-Eared",
+          "ability": [{ "cha": 2 }],
+          "entries": [
+            {
+              "name": "Alpha Dog",
+              "entries": [
+                "You know the guidance cantrip and can cast heroism once per long rest."
+              ]
+            },
+            {
+              "name": "Keen Senses",
+              "entries": ["You are proficient in the Perception skill."]
+            },
+            {
+              "name": "Puppy Dog Eyes",
+              "entries": ["You are proficient in the Persuasion skill."]
+            }
+          ],
+          "skillProficiencies": [
+            { "perception": true },
+            { "persuasion": true }
+          ],
+          "additionalSpells": [
+            {
+              "innate": {
+                "0": ["guidance"],
+                "1": ["heroism"]
+              },
+              "rest": "long",
+              "ability": "cha"
+            }
+          ],
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Bird-Eared",
+          "ability": [{ "dex": 2 }],
+          "entries": [
+            {
+              "name": "Bird Wings",
+              "entries": [
+                "You have a flying speed of 30 feet. You must move at least half your speed each turn or fall."
+              ]
+            },
+            {
+              "name": "Keen Sight",
+              "entries": ["You are proficient in the Perception skill."]
+            }
+          ],
+          "skillProficiencies": [{ "perception": true }],
+          "speed": {
+            "fly": 30
+          },
+          "overwrite": {
+            "ability": true
+          }
+        },
+        {
+          "name": "Fox-Eared",
+          "ability": [{ "cha": 2 }],
+          "entries": [
+            {
+              "name": "Darkvision",
+              "entries": [
+                "You can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light."
+              ]
+            },
+            {
+              "name": "Fox Cunning",
+              "entries": [
+                "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+              ]
+            },
+            {
+              "name": "Foxy",
+              "entries": [
+                "Once per long rest, you can grant yourself advantage on a Charisma-based skill check."
+              ]
+            }
+          ],
+          "overwrite": {
+            "ability": true
+          }
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Kemonomimi are humanoids with animal traits, often ears and tails. Once divided by civil war, they now live in peace and integrate into other societies. They refer to others as 'Friends' in honor of the clan that ended their conflict.",
+          {
+            "name": "Names",
+            "entries": [
+              "**Male:** Norio, Boris, Ritsuka, Kyou, Ikuto, Toby",
+              "**Female:** Eris, Kiriya, Holo, Himari, Ai, Hanekawa"
+            ]
+          },
+          {
+            "name": "Random Height and Weight",
+            "entries": [
+              "Base Height: 4'8\" + 2d10 in.",
+              "Base Weight: 110 lb. × (2d4)"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

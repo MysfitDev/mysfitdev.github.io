@@ -48,6 +48,10 @@ export default function RacePage() {
       name: 'Robot',
       pathName: 'robot',
     },
+    {
+      name: 'Kemonomimi',
+      pathName: 'kemonomimi',
+    },
   ];
 
   return (
