@@ -109,9 +109,7 @@
             {
               "innate": {
                 "1": ["hunter's mark"]
-              },
-              "rest": "long",
-              "ability": "dex"
+              }
             }
           ],
           "overwrite": {
@@ -146,9 +144,7 @@
               "innate": {
                 "0": ["guidance"],
                 "1": ["heroism"]
-              },
-              "rest": "long",
-              "ability": "cha"
+              }
             }
           ],
           "overwrite": {
