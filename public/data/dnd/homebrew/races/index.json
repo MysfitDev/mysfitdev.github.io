@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "generatedBy": "scripts/generate-race-manifest.mjs",
+    "generatedAt": "2026-05-21T02:48:18.284Z",
+    "sourceDirectory": "public/data/dnd/homebrew/races",
+    "fileCount": 10,
+    "raceCount": 10,
+    "subraceCount": 4
+  },
+  "races": [
+    {
+      "slug": "avilus",
+      "name": "Avilus",
+      "path": "/data/dnd/homebrew/races/avilus.json",
+      "source": "MYSF:Avilus"
+    },
+    {
+      "slug": "awoken_bread_loaf",
+      "name": "Awoken Bread Loaf",
+      "path": "/data/dnd/homebrew/races/awoken_bread_loaf.json",
+      "source": "MYSF:Loaf"
+    },
+    {
+      "slug": "colossus",
+      "name": "Colossus",
+      "path": "/data/dnd/homebrew/races/colossus.json",
+      "source": "MYSF:Colossus"
+    },
+    {
+      "slug": "cyborg",
+      "name": "Cyborg",
+      "path": "/data/dnd/homebrew/races/cyborg.json",
+      "source": "MYSF:Cyborg"
+    },
+    {
+      "slug": "house_dragon",
+      "name": "House Dragon",
+      "path": "/data/dnd/homebrew/races/house_dragon.json",
+      "source": "MYSF:HouseDragon"
+    },
+    {
+      "slug": "kemonomimi",
+      "name": "Kemonomimi",
+      "path": "/data/dnd/homebrew/races/kemonomimi.json",
+      "source": "MYSF:Kemonomimi"
+    },
+    {
+      "slug": "kumiho",
+      "name": "Kumiho",
+      "path": "/data/dnd/homebrew/races/kumiho.json",
+      "source": "MYSF"
+    },
+    {
+      "slug": "lopunny",
+      "name": "Lopunny",
+      "path": "/data/dnd/homebrew/races/lopunny.json",
+      "source": "MYSF:Lopunny"
+    },
+    {
+      "slug": "pipe_fox",
+      "name": "Pipe Fox",
+      "path": "/data/dnd/homebrew/races/pipe_fox.json",
+      "source": "MYSF:PipeFox"
+    },
+    {
+      "slug": "robot",
+      "name": "Robot",
+      "path": "/data/dnd/homebrew/races/robot.json",
+      "source": "MYSF:Robot"
+    }
+  ]
+}

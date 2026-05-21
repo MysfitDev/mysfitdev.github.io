@@ -10,29 +10,18 @@ export interface RaceManifestEntry {
   source: string | null;
 }
 
-interface RaceManifestMeta {
+interface RaceIndexMeta {
   generatedBy: string;
   generatedAt: string;
   sourceDirectory: string;
   fileCount: number;
-  documentCount: number;
   raceCount: number;
   subraceCount: number;
 }
 
-interface RaceManifestDocument {
-  slug: string;
-  name: string;
-  path: string;
-  data: unknown;
-}
-
 export interface RaceManifest {
-  _meta: RaceManifestMeta;
-  index: RaceManifestEntry[];
-  documents: RaceManifestDocument[];
-  race: unknown[];
-  subrace: unknown[];
+  _meta: RaceIndexMeta;
+  races: RaceManifestEntry[];
 }
 
 const manifestPath = path.join(
@@ -42,7 +31,7 @@ const manifestPath = path.join(
   'dnd',
   'homebrew',
   'races',
-  'all.json'
+  'index.json'
 );
 
 export async function getRaceManifest(): Promise<RaceManifest> {
@@ -54,5 +43,5 @@ export async function getRaceManifest(): Promise<RaceManifest> {
 export async function getRaceIndex(): Promise<RaceManifestEntry[]> {
   const manifest = await getRaceManifest();
 
-  return manifest.index;
+  return manifest.races;
 }

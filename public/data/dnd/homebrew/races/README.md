@@ -7,7 +7,7 @@ title: Homebrew Races
 
 Playable race JSON files for the site's D&D homebrew collection live in this folder.
 
-`all.json` is generated automatically from the individual race files in this directory. Update or add the per-race JSON files only; the combined manifest is rebuilt by `npm run dev` and `npm run build`.
+`all.json` is generated automatically as the combined Plutonium-importable race file for this directory. `index.json` is generated separately for the site’s race listing. Update or add the per-race JSON files only; both generated files are rebuilt by `npm run dev` and `npm run build`.
 
 ## Available Races
 
