@@ -23,6 +23,13 @@ function getUniqueAuthors(sources) {
   );
 }
 
+function normalizeCombinedRace(race) {
+  return {
+    ...race,
+    source: 'MYSF:AllRaces',
+  };
+}
+
 async function buildRaceManifest() {
   const files = (await readdir(racesDir))
     .filter(
@@ -65,7 +72,7 @@ async function buildRaceManifest() {
         : latestVersion;
 
     if (Array.isArray(json.race)) {
-      races.push(...json.race);
+      races.push(...json.race.map(normalizeCombinedRace));
     }
 
     if (Array.isArray(json.subrace)) {

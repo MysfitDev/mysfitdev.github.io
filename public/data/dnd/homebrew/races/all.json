@@ -13,7 +13,7 @@
         "url": "https://mysfitdev.github.io/races"
       }
     ],
-    "dateAdded": 1779332078,
+    "dateAdded": 1779334429,
     "dateLastModified": 1779329744,
     "_dateLastModifiedHash": "allraces20260521",
     "edition": "classic"
@@ -21,7 +21,7 @@
   "race": [
     {
       "name": "Avilus",
-      "source": "MYSF:Avilus",
+      "source": "MYSF:AllRaces",
       "ability": [
         {
           "dex": 1,
@@ -145,7 +145,7 @@
     },
     {
       "name": "Awoken Bread Loaf",
-      "source": "MYSF:Loaf",
+      "source": "MYSF:AllRaces",
       "ability": [
         {
           "con": 2,
@@ -431,7 +431,7 @@
     },
     {
       "name": "Colossus",
-      "source": "MYSF:Colossus",
+      "source": "MYSF:AllRaces",
       "ability": [
         {
           "con": 2
@@ -597,7 +597,7 @@
     },
     {
       "name": "Cyborg",
-      "source": "MYSF:Cyborg",
+      "source": "MYSF:AllRaces",
       "ability": [
         {
           "int": 1
@@ -812,7 +812,7 @@
     },
     {
       "name": "House Dragon",
-      "source": "MYSF:HouseDragon",
+      "source": "MYSF:AllRaces",
       "ability": [
         {
           "con": 2,
@@ -938,7 +938,7 @@
     },
     {
       "name": "Kemonomimi",
-      "source": "MYSF:Kemonomimi",
+      "source": "MYSF:AllRaces",
       "ability": [
         {
           "choose": {
@@ -1914,7 +1914,7 @@
     },
     {
       "name": "Kumiho",
-      "source": "MYSF",
+      "source": "MYSF:AllRaces",
       "ability": [
         {
           "cha": 2,
@@ -2091,7 +2091,7 @@
     },
     {
       "name": "Lopunny",
-      "source": "MYSF:Lopunny",
+      "source": "MYSF:AllRaces",
       "ability": [
         {
           "dex": 2,
@@ -2244,7 +2244,7 @@
     },
     {
       "name": "Pipe Fox",
-      "source": "MYSF:PipeFox",
+      "source": "MYSF:AllRaces",
       "ability": [
         {
           "dex": 2,
@@ -2371,7 +2371,7 @@
     },
     {
       "name": "Robot",
-      "source": "MYSF:Robot",
+      "source": "MYSF:AllRaces",
       "ability": [
         {
           "con": 2
