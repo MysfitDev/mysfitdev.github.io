@@ -17,6 +17,12 @@ function humanizeSlug(slug) {
     .join(' ');
 }
 
+function getUniqueAuthors(sources) {
+  return [...new Set(sources.flatMap((source) => source.authors ?? []))].sort(
+    (a, b) => a.localeCompare(b)
+  );
+}
+
 async function buildRaceManifest() {
   const files = (await readdir(racesDir))
     .filter(
@@ -30,6 +36,7 @@ async function buildRaceManifest() {
   const subraces = [];
   const sources = [];
   let latestModified = 0;
+  let latestVersion = '2026.05.20';
 
   for (const file of files) {
     const slug = path.basename(file, '.json');
@@ -52,6 +59,10 @@ async function buildRaceManifest() {
     }
 
     latestModified = Math.max(latestModified, json?._meta?.dateLastModified ?? 0);
+    latestVersion =
+      source?.version && source.version > latestVersion
+        ? source.version
+        : latestVersion;
 
     if (Array.isArray(json.race)) {
       races.push(...json.race);
@@ -65,7 +76,16 @@ async function buildRaceManifest() {
   return {
     combined: {
       _meta: {
-        sources,
+        sources: [
+          {
+            json: 'MYSF:AllRaces',
+            full: 'All Races',
+            abbreviation: 'MYSF',
+            authors: getUniqueAuthors(sources),
+            version: latestVersion,
+            url: 'https://mysfitdev.github.io/races',
+          },
+        ],
         dateAdded: Math.floor(Date.now() / 1000),
         dateLastModified: latestModified || Math.floor(Date.now() / 1000),
         _dateLastModifiedHash: `allraces${new Date().toISOString().slice(0, 10).replaceAll('-', '')}`,

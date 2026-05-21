@@ -2,107 +2,18 @@
   "_meta": {
     "sources": [
       {
-        "json": "MYSF:Avilus",
-        "full": "Avilus",
+        "json": "MYSF:AllRaces",
+        "full": "All Races",
         "abbreviation": "MYSF",
         "authors": [
-          "D&D Wiki Homebrew"
-        ],
-        "version": "2025.10.01",
-        "url": "https://www.dandwiki.com/wiki/Avilus_(5e_Race)"
-      },
-      {
-        "json": "MYSF:Loaf",
-        "full": "Awoken Bread Loaf",
-        "abbreviation": "MYSF",
-        "authors": [
-          "D&D Wiki Homebrew"
-        ],
-        "version": "2025.10.01",
-        "url": "https://www.dandwiki.com/wiki/Awoken_Bread_Loaf_(5e_Race)"
-      },
-      {
-        "json": "MYSF:Colossus",
-        "full": "Colossus",
-        "abbreviation": "MYSF",
-        "authors": [
-          "D&D Wiki Homebrew"
-        ],
-        "version": "2025.10.01",
-        "url": "https://www.dandwiki.com/wiki/Colossus_(5e_Race)"
-      },
-      {
-        "json": "MYSF:Cyborg",
-        "full": "Cyborg",
-        "abbreviation": "MYSF",
-        "authors": [
+          "D&D Wiki Homebrew",
           "MonkeyDM"
         ],
         "version": "2026.05.20",
-        "url": "https://monkeydm.com/blogs/races/dnd-5e-race-cyborgs-transcend-the-limits-of-your-mortal-body"
-      },
-      {
-        "json": "MYSF:HouseDragon",
-        "full": "House Dragon",
-        "abbreviation": "MYSF",
-        "authors": [
-          "D&D Wiki Homebrew"
-        ],
-        "version": "2025.10.01",
-        "url": "https://www.dandwiki.com/wiki/House_Dragon_(5e_Race)"
-      },
-      {
-        "json": "MYSF:Kemonomimi",
-        "full": "Kemonomimi",
-        "abbreviation": "MYSF",
-        "authors": [
-          "D&D Wiki Homebrew"
-        ],
-        "version": "2025.10.01",
-        "url": "https://www.dandwiki.com/wiki/Kemonomimi_(5e_Race)"
-      },
-      {
-        "json": "MYSF:Kumiho",
-        "full": "Kumiho",
-        "abbreviation": "MYSF",
-        "authors": [
-          "D&D Wiki Homebrew"
-        ],
-        "version": "2025.10.01",
-        "url": "https://www.dandwiki.com/wiki/Kumiho_(5e_Race)"
-      },
-      {
-        "json": "MYSF:Lopunny",
-        "full": "Lopunny",
-        "abbreviation": "MYSF",
-        "authors": [
-          "D&D Wiki Homebrew"
-        ],
-        "version": "2025.10.01",
-        "url": "https://www.dandwiki.com/wiki/Lopunny_(5e_Race)"
-      },
-      {
-        "json": "MYSF:PipeFox",
-        "full": "Pipe Fox",
-        "abbreviation": "MYSF",
-        "authors": [
-          "D&D Wiki Homebrew"
-        ],
-        "version": "2026.05.20",
-        "url": "https://www.dandwiki.com/wiki/Pipe_Fox_(5e_Creature)"
-      },
-      {
-        "json": "MYSF:Robot",
-        "full": "Robot",
-        "abbreviation": "MYSF",
-        "authors": [
-          "D&D Wiki Homebrew"
-        ],
-        "version": "2025.10.01",
-        "url": "https://www.dandwiki.com/wiki/Robot_(5e_Race)"
+        "url": "https://mysfitdev.github.io/races"
       }
     ],
-    "dateAdded": 1779331698,
+    "dateAdded": 1779332078,
     "dateLastModified": 1779329744,
     "_dateLastModifiedHash": "allraces20260521",
     "edition": "classic"
