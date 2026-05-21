@@ -1,0 +1,4 @@
+interface:
+  display_name: "D&D Homebrew Author"
+  short_description: "Create repo-aware D&D homebrew"
+  default_prompt: "Use $author-dnd-homebrew to add or update D&D homebrew content in this repository, wire any needed Next.js pages, and refresh impacted README references."

@@ -29,6 +29,10 @@ export default function RacePage() {
       pathName: 'colossus',
     },
     {
+      name: 'Cyborg',
+      pathName: 'cyborg',
+    },
+    {
       name: 'House Dragon',
       pathName: 'house_dragon',
     },

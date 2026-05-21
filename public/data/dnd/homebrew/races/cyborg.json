@@ -1,0 +1,230 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "MYSF:Cyborg",
+        "full": "Cyborg",
+        "abbreviation": "MYSF",
+        "authors": ["MonkeyDM"],
+        "version": "2026.05.20",
+        "url": "https://monkeydm.com/blogs/races/dnd-5e-race-cyborgs-transcend-the-limits-of-your-mortal-body"
+      }
+    ],
+    "dateAdded": 1779329744,
+    "dateLastModified": 1779329744,
+    "_dateLastModifiedHash": "cyborg20260520",
+    "edition": "classic"
+  },
+  "race": [
+    {
+      "name": "Cyborg",
+      "source": "MYSF:Cyborg",
+      "ability": [
+        {
+          "int": 1
+        }
+      ],
+      "speed": {
+        "walk": 35
+      },
+      "size": ["S", "M"],
+      "traitTags": [
+        "Subrace Required",
+        "Damage Resistance",
+        "Skill Proficiency",
+        "Tool Proficiency"
+      ],
+      "entries": [
+        "Not all people are delighted with their humanity. Some may think it to be a harness, rather than a blessing. There are those who seek to always break their limits, get stronger, faster, better. Then, there are the Cyborgs, those who improve on their bodies by stripping away that which made them human in the first place. Often times, for these half-humanoids, adventure is the best way to achieve further improvement, further growth and to truly knock down the boundaries of a human life they find too plain for their liking.",
+        {
+          "name": "Ability Score Increase",
+          "entries": [
+            "Your Intelligence score increases by 1. Based on your subrace, another ability score increases by 2. Alternatively, when determining your character's ability scores, increase any one ability score by 2 and a different ability score by 1."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Age",
+          "entries": [
+            "A cyborg's age is defined by the race they were before heavily altering their body. If they were an elf, they are likely to live for much longer than if they were a human. However, with enough experimentation, a cyborg might make their body entirely ageless."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Alignment",
+          "entries": [
+            "Due to their inclination for altering and removing traditionally humanoid traits, cyborgs are often very neutral, but their experimentation also requires precision and lawfulness."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Size",
+          "entries": [
+            "You are Medium or Small. You choose your size when you gain this race."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Speed",
+          "entries": [
+            "Your base walking speed is 35 feet."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Creature Type",
+          "entries": [
+            "You are a Humanoid and a Construct."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Mechanical Endurance",
+          "entries": [
+            "You have resistance to lightning damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Cybernetic Knowledge",
+          "entries": [
+            "You have proficiency in {@item tinker's tools|phb} and the {@skill Arcana} skill."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Mechano-organic Anatomy",
+          "entries": [
+            "Due to your partially humanoid anatomy, your consumption of resources is reduced. You only need to consume food and water once every 3 days. In order to gain the benefits of a long rest, you only need to remain seated for 6 hours, during which you are partially awake and aware of your surroundings."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common and one additional language of your choice, which can reflect your original race or background."
+          ],
+          "type": "entries"
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "arcana": true
+        }
+      ],
+      "toolProficiencies": [
+        {
+          "tinker's tools": true
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "common": true,
+          "choose": {
+            "from": ["any"],
+            "count": 1
+          }
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Gearhead",
+          "ability": [
+            {
+              "wis": 2
+            }
+          ],
+          "entries": [
+            "Gearheads make alterations mainly to their skulls, adding cogs, cybernetic eyes, and other modifications that allow them to better use their mental prowess.",
+            {
+              "name": "Darkvision",
+              "entries": [
+                "Due to your cybernetic eyes, you can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+              ],
+              "type": "entries"
+            }
+          ]
+        },
+        {
+          "name": "Clockheart",
+          "ability": [
+            {
+              "con": 2
+            }
+          ],
+          "entries": [
+            "Whether it be because of a weakened immune system or because of the drive to push the body further than its natural limits, clockhearts swap out internal organs for cybernetic implants, thus becoming bastions of inner strength.",
+            {
+              "name": "Cybernetic Immuno-protectors",
+              "entries": [
+                "You have advantage on all saving throws against disease, exhaustion, and on death saving throws."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Accelerated Mending",
+              "entries": [
+                "When you roll Hit Dice to restore hit points, you may roll twice and choose the higher result."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Clockheart Recalibrating",
+              "entries": [
+                "Once per long rest, you may attempt to recalibrate your inner mechanisms in order to dispel harmful effects. If you are under a spell or magical effect that requires a saving throw, you may spend your bonus action to make that saving throw once again, ending it on a success."
+              ],
+              "type": "entries"
+            }
+          ]
+        },
+        {
+          "name": "Cyberstep",
+          "ability": [
+            {
+              "dex": 2
+            }
+          ],
+          "speed": {
+            "walk": 40
+          },
+          "entries": [
+            "Whether it be because of a weakened immune system or because of the drive to push the body further than its natural limits, clockhearts swap out internal organs for cybernetic implants, thus becoming bastions of inner strength.",
+            {
+              "name": "Enhanced Cyberjoints",
+              "entries": [
+                "Because of your empowered legs, your movement speed is increased by 5 feet and your jump distance is tripled."
+              ],
+              "type": "entries"
+            },
+            {
+              "name": "Step Propulsor",
+              "entries": [
+                "Once per long rest, you may activate your step propulsors. For the next minute, your walking speed is doubled."
+              ],
+              "type": "entries"
+            }
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Cyborgs replace flesh with artifice in pursuit of strength, precision, and transcendence. Many become adventurers because danger, discovery, and treasure offer the fastest path to further augmentation.",
+          {
+            "name": "Society",
+            "entries": [
+              "Cyborgs rarely form societies of their own. Instead, they emerge from other cultures and either remain within them as altered outliers or leave to pursue ever greater self-improvement."
+            ],
+            "type": "entries"
+          },
+          {
+            "name": "Names",
+            "entries": [
+              "Cyborgs often keep the names of the people they once were, though some adopt sharper, more mechanical monikers after extensive modification."
+            ],
+            "type": "entries"
+          }
+        ]
+      }
+    }
+  ]
+}

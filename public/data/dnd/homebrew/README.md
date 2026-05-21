@@ -11,7 +11,7 @@ This is the place where you'll find custom content for your Dungeons & Dragons a
 
 ## What You'll Find Here 
 
-- [**Races**](./races): Explore new and exciting playable races.  
+- [**Races**](./races): Explore new and exciting playable races.
 - [**Classes**](./classes): Discover custom classes to add depth to your characters.  
 - [**Items**](./items): Equip your heroes with powerful and creative gear.  
 - [**Spells**](./spells): Unleash unique magical abilities.  
