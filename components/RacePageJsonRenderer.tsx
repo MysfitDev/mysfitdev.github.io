@@ -1,13 +1,10 @@
 'use client';
 
 import React from 'react';
-import {
-  OutlinedInput,
-  InputAdornment,
-  Button,
-  Container,
-} from '@mui/material';
+import { Container } from '@mui/material';
 import { useState, useEffect } from 'react';
+
+import CopyableJsonLink from '@/components/CopyableJsonLink';
 
 interface RagePageJsonRendererProps {
   title?: string;
@@ -21,13 +18,7 @@ export default function RagePageJsonRenderer({
   const [data, setData] = useState<string | null>(null);
   const [error, setError] = useState(false);
 
-  const [origin, setOrigin] = useState<string | null>(null);
-
   const path = `/data/dnd/homebrew/races/${race}.json`;
-
-  useEffect(() => {
-    setOrigin(window.location.origin);
-  }, []);
 
   useEffect(() => {
     if (!race) return;
@@ -41,17 +32,6 @@ export default function RagePageJsonRenderer({
       .catch(() => setError(true));
   }, [race]);
 
-  // Client-side copy button
-  const [copied, setCopied] = useState(false);
-
-  const handleCopy = async () => {
-    if (!origin || !path) return;
-
-    await navigator.clipboard.writeText(`${origin}${path}`);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
   if (error)
     return (
       <Container className="flex flex-col gap-2">
@@ -62,17 +42,7 @@ export default function RagePageJsonRenderer({
   return (
     <Container className="flex flex-col gap-2">
       <h1 className="text-3xl font-bold mb-4">{title ?? race}</h1>
-      <OutlinedInput
-        fullWidth
-        endAdornment={
-          <InputAdornment position="end">
-            <Button onClick={handleCopy} variant="contained">
-              {copied ? 'Copied!' : 'Copy URL'}
-            </Button>
-          </InputAdornment>
-        }
-        defaultValue={`${origin}${path}`}
-      />
+      <CopyableJsonLink path={path} />
       <Container className="bg-neutral-900 rounded-lg">
         <pre className="overflow-x-auto text-sm">{data}</pre>
       </Container>
