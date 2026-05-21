@@ -1,101 +1,145 @@
 {
-    "_meta": {
-        "sources": [
-            {
-                "json": "MYSF:PipeFox",
-                "full": "Pipe Fox",
-                "abbreviation": "MYSF",
-                "authors": [
-                    "D&D Wiki Homebrew"
-                ],
-                "version": "2025.10.01",
-                "url": "https://www.dandwiki.com/wiki/Pipe_Fox_(5e_Creature)"
-            }
-        ],
-        "dateAdded": 1545342498,
-        "dateLastModified": 1759356960,
-        "_dateLastModifiedHash": "f2a9c7d1e8",
-        "edition": "classic"
-    },
-    "monster": [
+  "_meta": {
+    "sources": [
+      {
+        "json": "MYSF:PipeFox",
+        "full": "Pipe Fox",
+        "abbreviation": "MYSF",
+        "authors": ["D&D Wiki Homebrew"],
+        "version": "2026.05.20",
+        "url": "https://www.dandwiki.com/wiki/Pipe_Fox_(5e_Creature)"
+      }
+    ],
+    "dateAdded": 1545342498,
+    "dateLastModified": 1779235200,
+    "_dateLastModifiedHash": "pipefoxrace20260520",
+    "edition": "classic"
+  },
+  "race": [
+    {
+      "name": "Pipe Fox",
+      "source": "MYSF:PipeFox",
+      "ability": [
         {
-            "name": "Pipe Fox",
-            "source": "MYSF:PipeFox",
-            "size": "T",
-            "type": {
-                "type": "beast"
-            },
-            "alignment": [
-                "N"
-            ],
-            "ac": [
-                {
-                    "ac": 13
-                }
-            ],
-            "hp": {
-                "average": 18,
-                "formula": "4d4+4"
-            },
-            "speed": {
-                "walk": 30,
-                "climb": 20
-            },
-            "str": 1,
-            "dex": 20,
-            "con": 13,
-            "int": 18,
-            "wis": 14,
-            "cha": 12,
-            "skill": {
-                "arcana": 6,
-                "perception": 4,
-                "stealth": 7
-            },
-            "pbNote": "+2 proficiency bonus",
-            "senses": [
-                "darkvision 60 ft.",
-                "passive Perception 14"
-            ],
-            "languages": [
-                "Common",
-                "Pipe Fox"
-            ],
-            "cr": "1/2",
-            "trait": [
-                {
-                    "name": "Keen Senses",
-                    "entries": [
-                        "The fox has advantage on Wisdom ({@skill Perception}) checks that rely on hearing, sight, or smell."
-                    ]
-                },
-                {
-                    "name": "Innate Spellcasting",
-                    "entries": [
-                        "The fox’s innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
-                    ]
-                },
-                {
-                    "name": "Superior Invisibility",
-                    "entries": [
-                        "The fox magically turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the fox wears or carries is invisible with it."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "A furry snake with the head of a fox. A curious creature, it avidly seeks out any knowledge it can get, hoarding it like currency. It is reluctant to share its vast knowledge, though will do so if given information of equal value or if it takes a liking to someone with the same curiosity as itself.",
-                    "These creatures are popular familiars of Onmyouji due to the knowledge they provide and their utterly adorable appearance (though the pipe foxes think of their appearance as 'dignified')."
-                ]
-            }
+          "dex": 2,
+          "int": 1
         }
-    ]
+      ],
+      "speed": {
+        "walk": 30,
+        "climb": 20
+      },
+      "size": ["S"],
+      "traitTags": [
+        "Darkvision",
+        "Skill Proficiency",
+        "Spellcasting",
+        "Natural Weapons"
+      ],
+      "entries": [
+        "Curious fox spirits with serpentine bodies, pipe foxes are subtle collectors of knowledge who trade secrets as readily as coin.",
+        {
+          "name": "Age",
+          "entries": [
+            "Pipe foxes mature by age 8 and can live for around 120 years."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Alignment",
+          "entries": [
+            "Pipe foxes are usually neutral, balancing playful curiosity with careful self-preservation."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Size",
+          "entries": [
+            "Pipe foxes are small, lithe creatures with long bodies and foxlike heads. Your size is Small."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Speed",
+          "entries": [
+            "Your base walking speed is 30 feet, and you have a climbing speed of 20 feet."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Keen Senses",
+          "entries": [
+            "You have proficiency in the {@skill Perception} skill."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Lorekeeper",
+          "entries": [
+            "You have proficiency in the {@skill Arcana} skill."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Natural Bite",
+          "entries": [
+            "You have a bite attack that you can use to make unarmed strikes. If you hit with it, the strike deals 1d4 piercing damage instead of the normal bludgeoning damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Fox Magic",
+          "entries": [
+            "You know the {@spell minor illusion} cantrip. Starting at 3rd level, you can cast {@spell invisibility} with this trait once, and you regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Languages",
+          "entries": [
+            "You can speak, read, and write Common and Sylvan."
+          ],
+          "type": "entries"
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "arcana": true,
+          "perception": true
+        }
+      ],
+      "languageProficiencies": [
+        {
+          "common": true,
+          "sylvan": true
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "A pipe fox is a furry, serpentine fox spirit that values knowledge above nearly everything else. Pipe foxes hoard secrets, lore, and rumors, sharing them only when they are offered something equally valuable in return.",
+          {
+            "name": "Society",
+            "entries": [
+              "Pipe foxes rarely gather in large communities. Most instead attach themselves to scholars, mystics, or travelers whose lives promise a steady flow of stories and hidden truths."
+            ],
+            "type": "entries"
+          },
+          {
+            "name": "Names",
+            "entries": [
+              "Pipe fox names tend to be short, musical, and easy to whisper: Kiko, Nari, Suzu, Tama, Yori, and Zeni are common examples."
+            ],
+            "type": "entries"
+          }
+        ]
+      }
+    }
+  ]
 }

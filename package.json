@@ -3,8 +3,11 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
+        "generate:races": "node scripts/generate-race-manifest.mjs",
+        "predev": "npm run generate:races",
+        "prebuild": "npm run generate:races",
         "dev": "next dev",
-        "build": "next build && next export",
+        "build": "next build",
         "start": "next start",
         "lint": "next lint"
     },

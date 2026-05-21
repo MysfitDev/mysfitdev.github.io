@@ -1,62 +1,9 @@
-'use client';
+import { Button, Container } from '@mui/material';
 
-import React from 'react';
-import {
-  Button,
-  Container,
-  InputAdornment,
-  OutlinedInput,
-} from '@mui/material';
+import { getRaceIndex } from '@/lib/dnd/raceManifest';
 
-interface RaceEntry {
-  name: string;
-  pathName: string;
-  icon?: React.ReactNode;
-}
-
-export default function RacePage() {
-  const races: RaceEntry[] = [
-    {
-      name: 'Avilus',
-      pathName: 'avilus',
-    },
-    {
-      name: 'Awoken Bread Loaf',
-      pathName: 'awoken_bread_loaf',
-    },
-    {
-      name: 'Colossus',
-      pathName: 'colossus',
-    },
-    {
-      name: 'Cyborg',
-      pathName: 'cyborg',
-    },
-    {
-      name: 'House Dragon',
-      pathName: 'house_dragon',
-    },
-    {
-      name: 'Kumiho',
-      pathName: 'kumiho',
-    },
-    {
-      name: 'Lopunny',
-      pathName: 'lopunny',
-    },
-    {
-      name: 'Pipe Fox',
-      pathName: 'pipe_fox',
-    },
-    {
-      name: 'Robot',
-      pathName: 'robot',
-    },
-    {
-      name: 'Kemonomimi',
-      pathName: 'kemonomimi',
-    },
-  ];
+export default async function RacePage() {
+  const races = await getRaceIndex();
 
   return (
     <Container className="flex flex-col gap-2" maxWidth={false}>
@@ -64,10 +11,10 @@ export default function RacePage() {
 
       {races.map((race) => (
         <Button
-          key={race.pathName}
+          key={race.slug}
           variant="outlined"
           className="mb-2"
-          href={`/races/${race.pathName}`}
+          href={`/races/${race.slug}`}
           component="a"
         >
           {race.name}

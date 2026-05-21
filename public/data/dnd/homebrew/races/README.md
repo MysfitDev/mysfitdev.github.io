@@ -7,6 +7,8 @@ title: Homebrew Races
 
 Playable race JSON files for the site's D&D homebrew collection live in this folder.
 
+`all.json` is generated automatically from the individual race files in this directory. Update or add the per-race JSON files only; the combined manifest is rebuilt by `npm run dev` and `npm run build`.
+
 ## Available Races
 
 - [Avilus](./avilus.json): Optimistic songbirds with swift wings and brighter dispositions.
