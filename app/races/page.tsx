@@ -1,27 +1,30 @@
-import { Button, Container } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 
 import CopyableJsonLink from '@/components/CopyableJsonLink';
-import { getRaceIndex } from '@/lib/dnd/raceManifest';
+import RacesBrowser from '@/components/RacesBrowser';
+import { getRaceCatalog } from '@/lib/dnd/raceData';
+import { getRaceManifest } from '@/lib/dnd/raceManifest';
 
 export default async function RacePage() {
-  const races = await getRaceIndex();
+  const [manifest, races] = await Promise.all([getRaceManifest(), getRaceCatalog()]);
 
   return (
-    <Container className="flex flex-col gap-2" maxWidth={false}>
-      <h1 className="text-3xl font-bold mb-4">Dungeons and Dragons Races</h1>
+    <Stack spacing={3}>
+      <Stack spacing={1.5}>
+        <Typography variant="h3" component="h1" sx={{ fontWeight: 700 }}>
+          Dungeons and Dragons Races
+        </Typography>
+        <Typography variant="body1" sx={{ maxWidth: 900, opacity: 0.88 }}>
+          Copy the link above to import the full race collection, including all included subraces. If you only want a specific race or a more tailored import target, choose one of the race pages below.
+        </Typography>
+      </Stack>
       <CopyableJsonLink path="/data/dnd/homebrew/races/all.json" />
-
-      {races.map((race) => (
-        <Button
-          key={race.slug}
-          variant="outlined"
-          className="mb-2"
-          href={`/races/${race.slug}`}
-          component="a"
-        >
-          {race.name}
-        </Button>
-      ))}
-    </Container>
+      <RacesBrowser
+        races={races}
+        totalRaceCount={manifest._meta.raceCount}
+        totalSubraceCount={manifest._meta.subraceCount}
+        generatedAt={manifest._meta.generatedAt}
+      />
+    </Stack>
   );
 }

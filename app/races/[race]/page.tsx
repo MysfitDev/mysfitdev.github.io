@@ -1,4 +1,5 @@
-import RacePageJsonRenderer from '@/components/RacePageJsonRenderer';
+import RaceDetailView from '@/components/RaceDetailView';
+import { getRaceFile, getRaceRecord } from '@/lib/dnd/raceData';
 import { getRaceIndex } from '@/lib/dnd/raceManifest';
 import { notFound } from 'next/navigation';
 
@@ -29,5 +30,14 @@ export default async function RaceDetailPage({
     notFound();
   }
 
-  return <RacePageJsonRenderer title={entry.name} race={entry.slug} />;
+  const [file, record] = await Promise.all([
+    getRaceFile(entry.slug),
+    getRaceRecord(entry.slug),
+  ]);
+
+  if (!record) {
+    notFound();
+  }
+
+  return <RaceDetailView slug={entry.slug} file={file} record={record} />;
 }

@@ -52,7 +52,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <Divider />
       <List>
         {menuOptions.map((option, index) => (
-          <Link href={option.link}>
+          <Link key={`menu-${index}`} href={option.link}>
             <ListItem key={option.text} disablePadding>
               <ListItemButton>
                 {option.icon && <ListItemIcon>{option.icon}</ListItemIcon>}
