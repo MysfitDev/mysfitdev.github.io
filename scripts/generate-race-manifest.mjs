@@ -30,6 +30,14 @@ function normalizeCombinedRace(race) {
   };
 }
 
+function normalizeCombinedSubrace(subrace) {
+  return {
+    ...subrace,
+    source: 'MYSF:AllRaces',
+    raceSource: 'MYSF:AllRaces',
+  };
+}
+
 async function buildRaceManifest() {
   const files = (await readdir(racesDir))
     .filter(
@@ -76,7 +84,7 @@ async function buildRaceManifest() {
     }
 
     if (Array.isArray(json.subrace)) {
-      subraces.push(...json.subrace);
+      subraces.push(...json.subrace.map(normalizeCombinedSubrace));
     }
   }
 

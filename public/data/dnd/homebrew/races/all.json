@@ -13,9 +13,9 @@
         "url": "https://mysfitdev.github.io/races"
       }
     ],
-    "dateAdded": 1779334429,
+    "dateAdded": 1779419316,
     "dateLastModified": 1779329744,
-    "_dateLastModifiedHash": "allraces20260521",
+    "_dateLastModifiedHash": "allraces20260522",
     "edition": "classic"
   },
   "race": [
@@ -2574,9 +2574,9 @@
   "subrace": [
     {
       "name": "Fey",
-      "source": "MYSF",
+      "source": "MYSF:AllRaces",
       "raceName": "Kumiho",
-      "raceSource": "MYSF",
+      "raceSource": "MYSF:AllRaces",
       "lineage": null,
       "ability": [
         {
@@ -2607,9 +2607,9 @@
     },
     {
       "name": "Descendent",
-      "source": "MYSF",
+      "source": "MYSF:AllRaces",
       "raceName": "Kumiho",
-      "raceSource": "MYSF",
+      "raceSource": "MYSF:AllRaces",
       "lineage": null,
       "ability": [
         {
@@ -2640,9 +2640,9 @@
     },
     {
       "name": "Half-breed",
-      "source": "MYSF",
+      "source": "MYSF:AllRaces",
       "raceName": "Kumiho",
-      "raceSource": "MYSF",
+      "raceSource": "MYSF:AllRaces",
       "lineage": null,
       "ability": [
         {
@@ -2673,9 +2673,9 @@
     },
     {
       "name": "Draconic",
-      "source": "MYSF",
+      "source": "MYSF:AllRaces",
       "raceName": "Kumiho",
-      "raceSource": "MYSF",
+      "raceSource": "MYSF:AllRaces",
       "lineage": null,
       "ability": [
         {
